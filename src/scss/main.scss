@@ -1,27 +1,16 @@
 @charset "UTF-8";
 
-// 0. Подключение первичных стилей
-@import "base/normalize";
-
 // 1. Импорт библиотек
-@import "vendors/main";
+@import "lib/main";
 
 // 2. Подключение базовых функций и переменных
-@import "abstracts/abstracts";
+@import "abstract/main";
 
 // 3. Подключение основных стилей
-@import "base/settings";
-@import "base/reset";
-@import "base/base";
 @import "base/fonts";
-@import "base/typography";
-@import "base/helpers";
 
-// 4. Импорт надстроек библиотек
-@import "vendors-extended/vendor-extend";
+// 4. Импорт ядра
+@import "core/bootstrap";
 
-// 5. Подключение стилей компонентов
-@import "components/components";
-
-// 6. Подключение стилей разметки
-@import "layout/layout";
+// 5. Подключение стилей разметки
+@import "layout/main";
