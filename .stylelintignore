@@ -1,2 +1,3 @@
 src/scss/vendors/**/*.scss
+src/scss/core/**/*.scss
 src/scripts/libraries/*.js
