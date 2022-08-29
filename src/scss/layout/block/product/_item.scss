@@ -6,6 +6,10 @@
     height: 100%;
   }
 
+  &__picture {
+    height: 208px;
+  }
+
   &__discount {
     position: absolute;
     z-index: 2;

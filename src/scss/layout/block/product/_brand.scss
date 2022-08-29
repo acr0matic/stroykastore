@@ -1,0 +1,13 @@
+.brand-card {
+  transition: $transition-base;
+
+  @media (hover: hover) {
+    &:hover {
+      border-color: $gray-600;
+    }
+  }
+
+  &__picture {
+    height: 124px;
+  }
+}
