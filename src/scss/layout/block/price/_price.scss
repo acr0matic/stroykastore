@@ -1,0 +1,29 @@
+.price {
+  font-weight: $weight-Bold;
+  font-size: $font-size__text--large;
+
+  &::after {
+    content: " ₽";
+  }
+
+  &--old {
+    color: $gray-500;
+
+    font-weight: $weight-Medium;
+    font-size: $font-size__text--regular;
+
+    text-decoration: line-through;
+  }
+
+  &--discount {
+    font-size: $font-size__text--regular;
+
+    &::before {
+      content: "-";
+    }
+
+    &::after {
+      content: "%";
+    }
+  }
+}

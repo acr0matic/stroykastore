@@ -1,0 +1,11 @@
+.btn-outline-secondary {
+  border-color: $gray-300;
+
+  @media (hover: hover) {
+    &:hover {
+      .icon path {
+        stroke: $white;
+      }
+    }
+  }
+}
