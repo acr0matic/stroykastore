@@ -1,0 +1,7 @@
+.container {
+  &--wide {
+    @include breakpoint($breakpoint-laptop) {
+      max-width: 1360px;
+    }
+  }
+}
