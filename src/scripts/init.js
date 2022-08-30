@@ -8,3 +8,13 @@ const lazyLoadInstance = new LazyLoad({
     if (loader) loader.classList.add('preloader--hide');
   },
 });
+
+$(document).ready(function () {
+  $(".owl-carousel").owlCarousel({
+    dots: false,
+    nav: true,
+    navContainer: '#feedback .section__header .slider-nav',
+    navText: '',
+    margin: 16,
+  });
+});

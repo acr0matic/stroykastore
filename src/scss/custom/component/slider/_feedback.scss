@@ -1,0 +1,15 @@
+.slider-feedback {
+  & > .owl-stage-outer {
+    overflow: visible;
+
+    & > .owl-stage {
+      display: flex;
+    }
+  }
+
+  & > .owl-nav {
+    position: absolute;
+    top: -40px;
+    right: 0;
+  }
+}

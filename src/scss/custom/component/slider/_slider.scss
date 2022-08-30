@@ -1,0 +1,48 @@
+.slider-nav {
+  display: flex;
+  align-items: center;
+
+  .owl-prev,
+  .owl-next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 52px;
+    height: 52px;
+    border: 1px solid $gray-300;
+
+    background-color: $white;
+
+    transition: $transition-base;
+
+    @media (hover: hover) {
+      &:hover {
+        background-color: $black;
+
+        &::after {
+          filter: brightness(1000%);
+        }
+      }
+    }
+
+    &::after {
+      width: 24px;
+      height: 24px;
+
+      transition: $transition-base;
+    }
+  }
+
+  .owl-prev {
+    margin-right: 0.75rem;
+  }
+
+  .owl-prev::after {
+    content: url("../img/icons/control/slider__prev.svg");
+  }
+
+  .owl-next::after {
+    content: url("../img/icons/control/slider__next.svg");
+  }
+}

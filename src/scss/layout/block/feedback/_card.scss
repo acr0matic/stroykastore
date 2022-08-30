@@ -1,0 +1,41 @@
+.feedback-card {
+  height: 100%;
+  padding: 1.75rem;
+
+  &__header {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 1rem;
+  }
+
+  &__avatar {
+    width: 52px;
+    height: 52px;
+
+    margin-right: 1rem;
+  }
+
+  &__name {
+    font-weight: $weight-Bold;
+    font-size: $font-size__text--big;
+  }
+
+  &__quotes {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 32px;
+    height: 24px;
+  }
+
+  &__footer {
+    margin-top: auto;
+
+    color: $gray-500;
+    font-weight: $weight-Medium;
+  }
+}
