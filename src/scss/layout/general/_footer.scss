@@ -3,9 +3,48 @@
 // -----------------------------------------------------------------------------
 
 #footer {
-
+  padding: 40px 0 20px;
+  background-color: $gray-900;
 }
 
 .footer {
+  &__logo {
+    margin-bottom: 22px;
+  }
 
+  &__contact {
+    & > *:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 40px;
+    padding-top: 1rem;
+    border-top: 1px solid $gray-600;
+
+    color: $gray-300;
+
+    a {
+      color: $gray-300;
+    }
+  }
+
+  &__payment {
+    display: flex;
+    align-items: center;
+  }
+
+  &__copyright,
+  &__author {
+    width: 278px;
+  }
+
+  &__author {
+    text-align: right;
+  }
 }

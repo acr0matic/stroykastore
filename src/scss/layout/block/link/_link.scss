@@ -1,0 +1,27 @@
+.link {
+  @media (hover: hover) {
+    &:hover,
+    &:hover .link__text {
+      color: $yellow;
+    }
+  }
+
+  &--vertical {
+    flex-direction: column;
+  }
+
+  &--icon {
+    display: flex;
+    align-items: center;
+  }
+
+  &--white {
+    .link__text {
+      color: $gray-200;
+    }
+  }
+
+  &__icon {
+    margin-right: 0.5rem;
+  }
+}

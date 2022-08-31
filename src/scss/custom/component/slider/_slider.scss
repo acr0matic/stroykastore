@@ -18,7 +18,7 @@
 
     @media (hover: hover) {
       &:hover {
-        background-color: $black;
+        background-color: $gray-900;
 
         &::after {
           filter: brightness(1000%);

@@ -4,11 +4,61 @@
 
 .nav {
   &__list {
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
   }
 
   &__item {
+    transition: $transition-base;
   }
 
   &__link {
+  }
+
+  &--footer {
+    .nav__item {
+      position: relative;
+
+      @media (hover: hover) {
+        &:hover {
+          &::before {
+            left: 0;
+            opacity: 1;
+            visibility: visible;
+          }
+
+          .nav__link {
+            padding-left: 20px;
+          }
+        }
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 0.75rem;
+      }
+
+      &::before {
+        content: url("../img/icons/control/nav__arrow.svg");
+        position: absolute;
+        z-index: 1;
+        top: 2px;
+        left: -20px;
+
+        opacity: 0;
+        visibility: hidden;
+
+        transition: $transition-base;
+      }
+    }
+
+    .nav__link {
+      position: relative;
+      z-index: 2;
+
+      color: $gray-200;
+      font-weight: $weight-Medium;
+    }
   }
 }
