@@ -3,5 +3,13 @@
 // -----------------------------------------------------------------------------
 
 .page {
+  &__title {
+    font-weight: $weight-Bold;
+    font-size: $font-size__title--medium;
+    line-height: 1.2;
+  }
 
+  &__description {
+    font-size: $font-size__text--large;
+  }
 }

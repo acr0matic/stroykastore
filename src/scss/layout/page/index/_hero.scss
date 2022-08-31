@@ -1,0 +1,25 @@
+#hero {
+}
+
+.hero {
+  &__title {
+    margin-bottom: 20px;
+  }
+
+  &__description {
+    display: -webkit-box;
+    overflow: hidden;
+
+    height: 90px;
+    margin-bottom: 100px;
+
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
+
+  &__slide {
+    padding: 40px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
