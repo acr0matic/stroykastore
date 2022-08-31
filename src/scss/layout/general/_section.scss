@@ -1,6 +1,10 @@
 .section {
   margin-bottom: 80px;
 
+  &:first-child {
+    margin-top: 40px;
+  }
+
   &__header {
     display: flex;
     align-items: center;

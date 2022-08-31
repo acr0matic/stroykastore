@@ -1,0 +1,35 @@
+.input-box {
+  position: relative;
+
+  & > img {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+
+    transform: translateY(-50%);
+  }
+}
+
+.form-control {
+  border: none;
+  border-bottom: 1px solid $gray-300;
+
+  background-color: $gray-100;
+  color: $gray-700;
+
+  font-weight: $weight-Medium;
+  font-size: $font-size__text--big;
+
+  transition: $transition-base;
+
+  &::placeholder {
+    color: $gray-500;
+  }
+
+  &:hover,
+  &:focus {
+    border-color: $gray-700;
+    background-color: $gray-100;
+    box-shadow: none;
+  }
+}

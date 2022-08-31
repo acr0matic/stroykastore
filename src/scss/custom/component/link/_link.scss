@@ -1,4 +1,6 @@
 .link {
+  cursor: pointer;
+
   @media (hover: hover) {
     &:hover,
     &:hover .link__text {
@@ -8,6 +10,11 @@
 
   &--vertical {
     flex-direction: column;
+
+    .link__icon {
+      margin-right: 0;
+      margin-bottom: 2px;
+    }
   }
 
   &--icon {
@@ -23,5 +30,9 @@
 
   &__icon {
     margin-right: 0.5rem;
+  }
+
+  &__text {
+    font-weight: $weight-Medium;
   }
 }
