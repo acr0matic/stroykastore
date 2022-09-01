@@ -1,0 +1,12 @@
+#hero {
+  .slider-nav {
+    position: absolute;
+    z-index: 2;
+    bottom: 40px;
+    left: 50%;
+
+    justify-content: flex-end;
+
+    transform: translateX(-50%);
+  }
+}
