@@ -9,7 +9,6 @@
     "promise"
   ],
   "extends": [
-    "plugin:lodash/canonical",
     "plugin:sonarjs/recommended",
     "plugin:promise/recommended"
   ],

@@ -10,19 +10,27 @@
     background-color: $gray-100;
   }
 
-  &__sticky,
+  &__body,
   &__bottom {
+    position: relative;
     background-color: $white;
   }
 
-  &__sticky {
+  &__body {
+    z-index: 5;
     padding: 1rem 0;
     border-bottom: 1px solid $gray-200;
   }
 
   &__bottom {
+    top: 0;
     padding: 10px 0;
     border-bottom: 1px solid $gray-200;
+    transition: $transition-base;
+
+    &--hide {
+      top: -50px;
+    }
   }
 
   &__content {
@@ -89,4 +97,12 @@
       }
     }
   }
+}
+
+.header-sticky {
+  position: sticky;
+  z-index: $zindex-sticky;
+  top: var(--header-offset);
+  left: 0;
+  width: 100%;
 }
