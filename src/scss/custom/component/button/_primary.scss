@@ -1,0 +1,24 @@
+.btn-primary {
+  border: none !important;
+  box-shadow: none !important;
+
+  @media (hover: hover) {
+    &:hover {
+      background-color: $gray-900;
+      color: $white;
+
+      .icon path {
+        stroke: $white;
+      }
+    }
+  }
+
+  &:active {
+    background-color: $gray-900 !important;
+    color: $gray-300 !important;
+
+    .icon path {
+      stroke: $gray-300;
+    }
+  }
+}
