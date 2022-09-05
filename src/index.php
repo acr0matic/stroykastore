@@ -1,7 +1,7 @@
 <?php include_once('layout/partials/header.php') ?>
 
 <!-- Основной контент -->
-<main>
+<main class="page">
   <section id="hero" class="section">
     <div class="container container--wide p-0">
       <div class="hero">

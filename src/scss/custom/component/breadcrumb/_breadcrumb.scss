@@ -1,0 +1,16 @@
+.breadcrumb {
+  padding: 0;
+  background-color: transparent;
+
+  &-item {
+    a,
+    &.active {
+      color: $gray-700;
+    }
+
+    & + .breadcrumb-item::before {
+      content: "→";
+      padding-right: 0.5rem;
+    }
+  }
+}

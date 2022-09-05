@@ -3,6 +3,11 @@
 // -----------------------------------------------------------------------------
 
 .page {
+  &__header,
+  &__breadcrumb {
+    margin-bottom: 20px;
+  }
+
   &__title {
     font-weight: $weight-Bold;
     font-size: $font-size__title--medium;
@@ -10,6 +15,7 @@
   }
 
   &__description {
+    margin-bottom: 0;
     font-size: $font-size__text--large;
   }
 }
