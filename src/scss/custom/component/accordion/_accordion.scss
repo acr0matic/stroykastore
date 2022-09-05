@@ -1,0 +1,30 @@
+.accordion {
+  & > .card {
+    border: none;
+  }
+
+  & > .card > .card-header {
+    padding: 16px 20px;
+    background-color: #f6f6f6;
+
+    a {
+      color: $gray-900;
+    }
+
+    h5 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      font-size: $font-size__text--big;
+    }
+
+    [aria-expanded="true"] .icon {
+      transform: rotate(180deg);
+    }
+  }
+
+  & > .card .card-body {
+    background-color: #f6f6f6;
+  }
+}
