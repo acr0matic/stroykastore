@@ -9,6 +9,13 @@
     align-items: center;
 
     margin-bottom: 1rem;
+
+    &::after {
+      content: url("../img/icons/misc/quotes.svg");
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
   }
 
   &__avatar {
