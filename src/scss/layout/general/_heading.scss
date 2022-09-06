@@ -1,7 +1,9 @@
 .heading {
   position: relative;
 
-  // min-height: 312px;
+  &--offset {
+    margin-bottom: 40px;
+  }
 
   &__content {
     position: relative;

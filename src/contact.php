@@ -2,41 +2,37 @@
 
 <main class="page">
   <section id="heading" class="section">
-    <div class="heading">
-      <div class="container container--wide">
-        <div class="container">
-          <div class="heading__content p-0">
-            <div class="page__breadcrumb">
-              <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="#">Главная</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Контакты</li>
-                </ol>
-              </nav>
-            </div>
-            <!-- /.page__breadcrumb -->
-
-            <div class="page__header">
-              <h1 class="page__title">
-                Контакты
-              </h1>
-            </div>
-            <!-- /.page__header -->
+    <div class="container">
+      <div class="heading heading--offset">
+        <div class="heading__content p-0">
+          <div class="page__breadcrumb">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Главная</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Контакты</li>
+              </ol>
+            </nav>
           </div>
-          <!-- /.heading__content -->
+          <!-- /.page__breadcrumb -->
 
-          <div id="map" class="map">
-            <img class="map__content" src="img/misc/map.jpg" alt="">
+          <div class="page__header">
+            <h1 class="page__title">
+              Контакты
+            </h1>
           </div>
-          <!-- /.map -->
+          <!-- /.page__header -->
         </div>
-        <!-- /.container -->
+        <!-- /.heading__content -->
       </div>
-      <!-- /.container container--wide -->
-    </div>
-    <!-- /.heading -->
-  </section>
+      <!-- /.heading -->
 
+      <div id="map" class="map">
+        <img class="map__content" src="img/misc/map.jpg" alt="">
+      </div>
+      <!-- /.map -->
+    </div>
+    <!-- /.container -->
+  </section>
 
   <section id="company" class="section">
     <div class="container">
