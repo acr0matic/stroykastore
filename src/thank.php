@@ -6,17 +6,21 @@
       <div class="row justify-content-center text-center">
         <div class="col-6 border">
           <div class="status">
+            <div class="status__icon picture picture--contain">
+              <img class="picture__media" src="img/icons/misc/check-circle.svg" alt="">
+            </div>
+            <!-- /.status__icon -->
             <div class="page__header">
               <h1 class="page__title">
-                404
-                <br>
-                <span>Страница не найдена</span>
+                Спасибо!
               </h1>
             </div>
             <!-- /.section__header -->
 
             <p class="page__description mb-4">
-              Неправильно набран адрес или такая страница больше не существует
+              Ваша заявка принята. Мы свяжемся с вами
+              <br>
+              в ближайшее время
             </p>
 
             <a href="" class="btn btn-primary">Перейти на главную</a>
