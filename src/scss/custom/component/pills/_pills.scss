@@ -1,0 +1,15 @@
+.nav-pills {
+  .nav-link {
+    border: $card-border-width solid $card-border-color;
+
+    font-weight: $weight-Medium;
+    font-size: $font-size__text--big;
+
+    transition: $transition-base;
+  }
+
+  .nav-link.active {
+    border-color: transparent;
+    color: $black;
+  }
+}
