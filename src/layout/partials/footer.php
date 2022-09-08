@@ -141,6 +141,8 @@
   <!-- /.container -->
 </footer>
 
+<?php include_once('modal/login.php') ?>
+
 <!-- Скрипты -->
 <!-- build:js js/script.min.js -->
 <script src="scripts/libraries/jquery.slim.min.js"></script>

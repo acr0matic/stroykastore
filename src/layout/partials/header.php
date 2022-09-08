@@ -140,9 +140,9 @@
                   <!-- /.header__search mr-3 -->
 
                   <div class="header__action">
-                    <a class="link link--vertical link--icon" href="">
+                    <a class="link link--vertical link--icon">
                       <i class="icon icon--user"></i>
-                      <span class="link__text">Профиль</span>
+                      <span data-toggle="modal" data-target="#modal-login" class="link__text">Профиль</span>
                     </a>
 
                     <a class="link link--vertical link--icon" href="">
