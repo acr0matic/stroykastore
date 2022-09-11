@@ -1,4 +1,8 @@
 .modal {
+  &-sm {
+    max-width: 376px;
+  }
+
   .close {
     position: absolute;
     top: 20px;
@@ -6,13 +10,6 @@
 
     width: 52px;
     height: 52px;
-  }
-
-  &-sm {
-    max-width: 376px;
-  }
-
-  .modal-dialog {
   }
 
   .modal-content {

@@ -13,6 +13,14 @@
     background-color: $gray-900;
 
     .documentation-card__title {
+      @include breakpoint($breakpoint-tablet--large) {
+        font-size: $font-size__text--big;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        font-size: $font-size__text--regular;
+      }
+
       margin-bottom: 20px;
       font-size: $font-size__text--large;
       text-align: center;
@@ -20,6 +28,16 @@
   }
 
   &__blank {
+    @include breakpoint($breakpoint-tablet--large) {
+      width: 240px;
+      margin-top: 20px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      width: 85%;
+      padding: 10px 8px 0;
+    }
+
     width: 260px;
     height: 100%;
 
@@ -30,6 +48,10 @@
   }
 
   &__line {
+    @include breakpoint($breakpoint-mobile--large) {
+      display: none;
+    }
+
     margin-top: auto;
     padding-bottom: 1rem;
 
@@ -53,9 +75,21 @@
   }
 
   &__body {
+    @include breakpoint($breakpoint-mobile--large) {
+      padding: 0.5rem;
+    }
+
+    display: flex;
+    flex-direction: column;
+
     padding: 1rem;
 
     .documentation-card__title {
+      @include breakpoint($breakpoint-mobile--large) {
+        font-weight: $weight-Medium;
+        font-size: $font-size__text--regular;
+      }
+
       margin-bottom: 0.25rem;
 
       font-weight: $weight-Bold;
@@ -65,5 +99,9 @@
 
   &__info {
     margin-bottom: 1rem;
+  }
+
+  &__button {
+    margin-top: auto;
   }
 }

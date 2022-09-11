@@ -1,0 +1,5 @@
+.logo--header {
+  @include breakpoint($breakpoint-mobile--large) {
+    width: 150px;
+  }
+}

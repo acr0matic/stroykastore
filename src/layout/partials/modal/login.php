@@ -1,5 +1,5 @@
 <!-- Modal -->
-<div class="modal fade" id="modal-login" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="modal-login" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -17,7 +17,6 @@
             </div>
             <!-- /.col -->
 
-
             <div class="col-12">
               <div class="form-group mb-2">
                 <label for="input-password">Пароль</label>
@@ -33,7 +32,7 @@
 
             <div class="col-12">
               <button class="btn btn-primary btn-block mb-2">Войти</button>
-              <button class="btn btn-outline-secondary btn-block">Создать учетную запись</button>
+              <button data-dismiss="modal" type="button" data-toggle="modal" data-target="#modal-registration" class="btn btn-outline-secondary btn-block">Создать учетную запись</button>
             </div>
             <!-- /.col-12 -->
           </div>

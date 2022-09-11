@@ -2,6 +2,10 @@
   position: relative;
 
   &--offset {
+    @include breakpoint($breakpoint-tablet--large) {
+      margin-bottom: 30px;
+    }
+
     margin-bottom: 40px;
   }
 

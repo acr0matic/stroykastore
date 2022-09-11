@@ -28,7 +28,7 @@
 
       <div class="documentation">
         <div class="row">
-          <div class="col-4">
+          <div class="col-6 col-lg-4 mb-3 mb-lg-0">
             <div class="card documentation-card">
               <div class="documentation-card__header">
                 <div class="documentation-card__blank">
@@ -39,7 +39,7 @@
               </div>
               <!-- /.documentation-card__header -->
 
-              <div class="documentation-card__body">
+              <div class="documentation-card__body border-top">
                 <h3 class="documentation-card__title">Оферта «Безопасная сделка»</h3>
                 <div class="documentation-card__info">
                   <span class="documentation-card__ext">PDF</span>
@@ -56,7 +56,7 @@
           </div>
           <!-- /.col-4 -->
 
-          <div class="col-4">
+          <div class="col-6 col-lg-4 mb-3 mb-lg-0">
             <div class="card documentation-card">
               <div class="documentation-card__header">
                 <div class="documentation-card__blank">
@@ -67,7 +67,7 @@
               </div>
               <!-- /.documentation-card__header -->
 
-              <div class="documentation-card__body">
+              <div class="documentation-card__body border-top">
                 <h3 class="documentation-card__title">Политика конфиденциальности </h3>
                 <div class="documentation-card__info">
                   <span class="documentation-card__ext">PDF</span>
@@ -84,7 +84,7 @@
           </div>
           <!-- /.col-4 -->
 
-          <div class="col-4">
+          <div class="col-6 col-lg-4">
             <div class="card documentation-card">
               <div class="documentation-card__header">
                 <div class="documentation-card__blank">
@@ -95,7 +95,7 @@
               </div>
               <!-- /.documentation-card__header -->
 
-              <div class="documentation-card__body">
+              <div class="documentation-card__body border-top">
                 <h3 class="documentation-card__title">Оферта</h3>
                 <div class="documentation-card__info">
                   <span class="documentation-card__ext">PDF</span>

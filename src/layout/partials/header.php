@@ -64,7 +64,7 @@
   <!-- Шапка -->
   <header id="header">
     <div class="header">
-      <div class="header__top">
+      <div class="header__top d-none d-sm-block">
         <div class="container">
           <div class="header-top">
             <div class="header-top__geo link link--icon">
@@ -76,7 +76,7 @@
             <div class="header-top__nav">
               <nav class="nav nav--top">
                 <ul class="nav__list">
-                  <li class="nav__item">
+                  <li class="nav__item d-none d-md-block">
                     <a class="nav__link" href="">Бренды</a>
                   </li>
 
@@ -88,7 +88,7 @@
                     <a class="nav__link" href="">Возврат</a>
                   </li>
 
-                  <li class="nav__item">
+                  <li class="nav__item d-none d-md-block">
                     <a class="nav__link" href="">Документация</a>
                   </li>
 
@@ -110,8 +110,13 @@
       <div class="header__main">
         <div class="header__body">
           <div class="container">
-            <div class="row">
-              <div class="col-3">
+            <div class="row align-items-center">
+              <div class="col-3 d-block d-sm-none">
+
+              </div>
+              <!-- /.col-3 col-sm-0 -->
+
+              <div class="col-6 col-sm-3">
                 <div class="header__logo">
                   <a href="">
                     <img class="logo logo--header" src="img/logo__header.svg" alt="">
@@ -121,9 +126,9 @@
               </div>
               <!-- /.col-3 -->
 
-              <div class="col-9">
+              <div class="col-3 col-sm-9">
                 <div class="header__content">
-                  <div class="header__menu mr-3">
+                  <div class="header__menu mr-2 mr-md-3 ml-auto d-none d-sm-block">
                     <button class="btn btn-primary">
                       <i class="icon icon--chart mr-2"></i>
                       Каталог
@@ -131,21 +136,21 @@
                   </div>
                   <!-- /.header__menu -->
 
-                  <div class="header__search mr-3">
+                  <div class="header__search mr-3 d-none d-lg-block">
                     <div class="input-box">
-                      <input placeholder="Поиск" name="" type="text" class="form-control">
+                      <input placeholder="Поиск" name="search" type="text" class="form-control">
                       <img src="img/icons/misc/search.svg" alt="">
                     </div>
                   </div>
                   <!-- /.header__search mr-3 -->
 
                   <div class="header__action">
-                    <a class="link link--vertical link--icon">
+                    <a data-toggle="modal" data-target="#modal-login" class="link link--vertical link--icon d-none d-sm-flex">
                       <i class="icon icon--user"></i>
-                      <span data-toggle="modal" data-target="#modal-login" class="link__text">Профиль</span>
+                      <span class="link__text">Профиль</span>
                     </a>
 
-                    <a class="link link--vertical link--icon" href="">
+                    <a class="link link--vertical link--icon d-none d-sm-flex" href="">
                       <i class="icon icon--box"></i>
                       <span class="link__text">Заказы</span>
                     </a>
@@ -160,6 +165,17 @@
                 <!-- /.header__content -->
               </div>
               <!-- /.col-9 -->
+
+              <div class="col-12 d-block d-lg-none mt-2 mt-sm-3">
+                <div class="header__search">
+                  <div class="input-box">
+                    <input placeholder="Поиск" name="search" type="text" class="form-control">
+                    <img src="img/icons/misc/search.svg" alt="">
+                  </div>
+                </div>
+                <!-- /.header__search mr-3 -->
+              </div>
+              <!-- /.col-12 -->
             </div>
             <!-- /.row -->
           </div>
@@ -167,7 +183,7 @@
         </div>
         <!-- /.header__body -->
 
-        <div class="header__bottom">
+        <div class="header__bottom d-none d-xl-block">
           <div class="container">
             <div class="header__nav">
               <nav class="nav nav--header">

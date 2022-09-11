@@ -17,6 +17,10 @@
   }
 
   &__body {
+    @include breakpoint($breakpoint-tablet--large) {
+      padding: 0.75rem 0;
+    }
+
     z-index: 5;
     padding: 1rem 0;
     border-bottom: 1px solid $gray-200;
@@ -34,6 +38,10 @@
   }
 
   &__content {
+    @include breakpoint($breakpoint-mobile--large) {
+      justify-content: flex-end;
+    }
+
     display: flex;
   }
 
@@ -43,6 +51,7 @@
     .input-box,
     input {
       height: 100%;
+      min-height: 48px;
     }
   }
 
@@ -51,6 +60,10 @@
     align-items: center;
 
     .link {
+      @include breakpoint($breakpoint-tablet--large) {
+        width: 65px;
+      }
+
       width: 82px;
 
       @media (hover: hover) {
@@ -66,6 +79,10 @@
       }
 
       &__text {
+        @include breakpoint($breakpoint-mobile--large) {
+          display: none;
+        }
+
         color: $gray-700;
       }
     }

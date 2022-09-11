@@ -4,7 +4,7 @@
     <div class="footer">
       <div class="footer__content">
         <div class="row">
-          <div class="col-4">
+          <div class="col-12 col-lg-4 d-flex d-lg-block flex-column flex-sm-row border-bottom border-lg-bottom-0 border-dark pb-3 mb-3">
             <div class="footer__logo">
               <a href="">
                 <img src="img/logo__footer.svg" alt="" class="logo logo--footer">
@@ -12,7 +12,7 @@
             </div>
             <!-- /.footer__logo -->
 
-            <div class="footer__contact">
+            <div class="footer__contact ml-sm-auto">
               <a class="link link--white link--icon" href="mailto:info@stroykastore.ru">
                 <svg class="link__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="#E8E9EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -35,7 +35,7 @@
           </div>
           <!-- /.col-4 -->
 
-          <div class="col-3">
+          <div class="col-6 col-sm-4 col-lg-3">
             <div class="footer__nav">
               <nav class="nav nav--footer">
                 <ul class="nav__list">
@@ -62,7 +62,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="col-3">
+          <div class="col-6 col-sm-4 col-lg-3">
             <div class="footer__nav">
               <nav class="nav nav--footer">
                 <ul class="nav__list">
@@ -89,7 +89,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="col-2">
+          <div class="col-6 col-sm-4 col-lg-2 mt-2 mt-sm-0 pt-1 pt-sm-0">
             <div class="footer__nav">
               <nav class="nav nav--footer">
                 <ul class="nav__list">
@@ -121,18 +121,24 @@
       <!-- /.footer__content -->
 
       <div class="footer__info">
-        <div class="footer__copyright">
-          © СтройкаСтор
-        </div>
-        <!-- /.footer__copyright -->
+        <div class="row">
+          <div class="col-12 border-top border-dark d-flex flex-column-reverse flex-sm-row justify-content-between pt-3">
+            <div class="footer__copyright mt-3 mb-sm-0">
+              © СтройкаСтор
+            </div>
+            <!-- /.footer__copyright -->
 
-        <div class="footer__payment">
-          <img class="mr-3" src="img/content/payment/visa.svg" alt="">
-          <img class="mr-3" src="img/content/payment/mastercard.svg" alt="">
-          <img class="mr-3" src="img/content/payment/maestro.svg" alt="">
-          <img class="" src="img/content/payment/mir.svg" alt="">
+            <div class="footer__payment">
+              <img class="mr-3" src="img/content/payment/visa.svg" alt="">
+              <img class="mr-3" src="img/content/payment/mastercard.svg" alt="">
+              <img class="mr-3" src="img/content/payment/maestro.svg" alt="">
+              <img class="" src="img/content/payment/mir.svg" alt="">
+            </div>
+            <!-- /.footer__payment -->
+          </div>
+          <!-- /.col-12 -->
         </div>
-        <!-- /.footer__payment -->
+        <!-- /.row -->
       </div>
       <!-- /.footer__info -->
     </div>
@@ -142,6 +148,7 @@
 </footer>
 
 <?php include_once('modal/login.php') ?>
+<?php include_once('modal/registration.php') ?>
 
 <!-- Скрипты -->
 <!-- build:js js/script.min.js -->

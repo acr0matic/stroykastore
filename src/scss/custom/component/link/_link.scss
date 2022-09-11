@@ -61,6 +61,10 @@
   }
 
   &__text {
+    @include breakpoint($breakpoint-tablet--large) {
+      font-size: $font-size__text--small;
+    }
+
     font-weight: $weight-Medium;
   }
 }
