@@ -1,11 +1,32 @@
 #about {
   .container--wide {
+    @include breakpoint(max-width 1199px) {
+      background-position-x: 25%;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      background-position-x: 10%;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      background: none;
+    }
+
     background-image: url("../img/page/index/about/background.jpg");
-    background-size: 100% 100%;
+    background-position: center center;
+    background-size: cover;
     background-repeat: no-repeat;
   }
 }
 
 .about {
+  @include breakpoint(max-width 1199px) {
+    padding: 50px 0;
+  }
+
+  @include breakpoint($breakpoint-mobile--large) {
+    padding: 0;
+  }
+
   padding: 88px 0;
 }

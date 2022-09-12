@@ -1,8 +1,8 @@
 <section id="about" class="section">
   <div class="container container--wide">
-    <div class="container">
+    <div class="container p-0">
       <div class="row">
-        <div class="col-7 offset-1">
+        <div class="col-12 col-sm-9 col-xl-7 offset-sm-2 offset-lg-1">
           <div class="about">
             <div class="section__header">
               <h2 class="section__title">

@@ -45,7 +45,7 @@
 
       <div class="company">
         <div class="row">
-          <div class="col-4">
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-4 mb-2 mb-sm-0">
             <p>
               115114, г. Москва, Дербеневская
               <br>
@@ -57,10 +57,16 @@
               <br>
               Остановка «Дербеневская наб., д. 7»
             </p>
+
+            <p class="d-block d-lg-0">
+              Поддержка клиентов
+              <br>
+              <a href="mailto:info@stroykastore.ru">info@stroykastore.ru</a>
+            </p>
           </div>
           <!-- /.col-4 -->
 
-          <div class="col-5">
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-5">
             <p>
               ОГРН: 1047796688554
               <br>
@@ -83,7 +89,7 @@
           </div>
           <!-- /.col-5 -->
 
-          <div class="col-3">
+          <div class="col-4 col-xl-3 d-none d-lg-block">
             <p>
               Поддержка клиентов
               <br>
