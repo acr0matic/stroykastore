@@ -5,5 +5,14 @@
 }
 
 .account {
+  @include breakpoint($breakpoint-mobile--large) {
+    padding: 0;
+
+    .btn {
+      justify-content: center;
+      width: 100%;
+    }
+  }
+
   padding: 36px;
 }
