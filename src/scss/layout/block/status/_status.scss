@@ -1,4 +1,12 @@
 #status {
+  @include breakpoint($breakpoint-tablet) {
+    margin: 60px 0;
+  }
+
+  @include breakpoint($breakpoint-mobile--large) {
+    margin: 50px 0;
+  }
+
   margin: 80px 0;
 
   .page__header {
@@ -6,9 +14,18 @@
   }
 
   .page__title {
+    @include breakpoint($breakpoint-mobile--large) {
+      font-size: 34px;
+    }
+
     color: $black;
+    font-size: 48px;
 
     span {
+      @include breakpoint($breakpoint-mobile--large) {
+        font-size: 26px;
+      }
+
       color: $gray-900;
       font-weight: $weight-SemiBold;
       font-size: 34px;
@@ -16,6 +33,10 @@
   }
 
   .page__description {
+    @include breakpoint($breakpoint-mobile--large) {
+      font-size: $font-size__text--regular;
+    }
+
     font-weight: $weight-Medium;
     font-size: $font-size__text--big;
   }

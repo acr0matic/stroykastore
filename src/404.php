@@ -4,8 +4,8 @@
   <section id="status" class="section">
     <div class="container">
       <div class="row justify-content-center text-center">
-        <div class="col-6 border">
-          <div class="status">
+        <div class="col-12 col-md-10 col-lg-8 col-xl-6">
+          <div class="status border">
             <div class="page__header">
               <h1 class="page__title">
                 404
