@@ -4,6 +4,10 @@
   }
 
   & > .card > .card-header {
+    @include breakpoint($breakpoint-mobile--large) {
+      padding: 16px;
+    }
+
     padding: 16px 20px;
     background-color: #f6f6f6;
 
@@ -12,6 +16,10 @@
     }
 
     h5 {
+      @include breakpoint($breakpoint-mobile--large) {
+        font-size: $font-size__text--regular;
+      }
+
       display: flex;
       align-items: center;
       justify-content: space-between;

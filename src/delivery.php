@@ -53,7 +53,7 @@
 
       <div class="delivery">
         <div class="row">
-          <div class="col-3">
+          <div class="col-6 col-lg-3 mb-4 mb-lg-0">
             <div class="delivery__step">
               <picture class="picture picture--contain delivery__icon">
                 <img class="picture__media" src="img/page/delivery/steps/1.svg" alt="">
@@ -67,7 +67,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="col-3">
+          <div class="col-6 col-lg-3 mb-4 mb-lg-0">
             <div class="delivery__step">
               <picture class="picture picture--contain delivery__icon">
                 <img class="picture__media" src="img/page/delivery/steps/2.svg" alt="">
@@ -81,7 +81,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="col-3">
+          <div class="col-6 col-lg-3">
             <div class="delivery__step">
               <picture class="picture picture--contain delivery__icon">
                 <img class="picture__media" src="img/page/delivery/steps/3.svg" alt="">
@@ -95,7 +95,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="col-3">
+          <div class="col-6 col-lg-3">
             <div class="delivery__step">
               <picture class="picture picture--contain delivery__icon">
                 <img class="picture__media" src="img/page/delivery/steps/4.svg" alt="">
@@ -116,10 +116,10 @@
   </section>
 
   <section id="faq" class="section">
-    <div class="container border">
-      <div class="faq">
+    <div class="container">
+      <div class="faq border-md">
         <div class="row justify-content-center">
-          <div class="col-8">
+          <div class="col-12 col-md-10 col-xl-8">
             <div class="section__header">
               <h2 class="section__title">
                 Часто задаваемые вопросы
