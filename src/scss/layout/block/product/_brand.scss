@@ -8,6 +8,14 @@
   }
 
   &__picture {
+    @include breakpoint($breakpoint-tablet) {
+      height: 86px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      height: 66px;
+    }
+
     height: 124px;
   }
 }

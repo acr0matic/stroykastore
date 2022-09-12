@@ -56,12 +56,12 @@
         <div class="tab-content" id="pills-tabContent">
           <div class="tab-pane fade show active" id="tab-all" role="tabpanel">
             <div class="row border-bottom">
-              <div class="col-2">
+              <div class="col-3 col-md-2">
                 <div class="list-brand__letter">A</div>
               </div>
               <!-- /.col-2 -->
 
-              <div class="col-10">
+              <div class="col-9 col-md-10">
                 <ul class="list-brand__list">
                   <li><a href="">ASB-Woodline</a></li>
                   <li><a href="">AVS</a></li>
@@ -81,12 +81,12 @@
             <!-- /.row -->
 
             <div class="row border-bottom">
-              <div class="col-2">
+              <div class="col-3 col-md-2">
                 <div class="list-brand__letter">B</div>
               </div>
               <!-- /.col-2 -->
 
-              <div class="col-10">
+              <div class="col-9 col-md-10">
                 <ul class="list-brand__list">
                   <li><a href="">BLB</a></li>
                   <li><a href="">BOYSCOUT</a></li>
@@ -108,12 +108,12 @@
 
           <div class="tab-pane fade" id="tab-eng-1" role="tabpanel">
             <div class="row">
-              <div class="col-2">
+              <div class="col-3 col-md-2">
                 <div class="list-brand__letter">A</div>
               </div>
               <!-- /.col-2 -->
 
-              <div class="col-10">
+              <div class="col-9 col-md-10">
                 <ul class="list-brand__list">
                   <li><a href="">ASB-Woodline</a></li>
                   <li><a href="">AVS</a></li>
@@ -135,12 +135,12 @@
 
           <div class="tab-pane fade" id="tab-eng-2" role="tabpanel">
             <div class="row">
-              <div class="col-2">
+              <div class="col-3 col-md-2">
                 <div class="list-brand__letter">B</div>
               </div>
               <!-- /.col-2 -->
 
-              <div class="col-10">
+              <div class="col-9 col-md-10">
                 <ul class="list-brand__list">
                   <li><a href="">BLB</a></li>
                   <li><a href="">BOYSCOUT</a></li>

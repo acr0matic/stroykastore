@@ -71,6 +71,7 @@
 
     @include breakpoint($breakpoint-mobile--large) {
       background-position-x: 0;
+      background-size: cover;
     }
 
     position: absolute;
