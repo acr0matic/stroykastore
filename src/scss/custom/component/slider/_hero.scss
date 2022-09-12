@@ -1,5 +1,9 @@
 #hero {
   .slider-nav {
+    @include breakpoint(max-width 1360px) {
+      padding-right: 40px;
+    }
+
     position: absolute;
     z-index: 2;
     bottom: 40px;

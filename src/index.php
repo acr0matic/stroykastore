@@ -5,7 +5,7 @@
   <section id="hero" class="section">
     <div class="container container--wide p-0">
       <div class="hero">
-        <div class="owl-carousel slider-hero">
+        <div class="owl-carousel slider-hero px-2">
           <div class="hero__slide" style="background-image: url(img/page/index/hero/1.jpg);">
             <div class="container">
               <div class="hero__content">
@@ -77,19 +77,22 @@
     <div class="container">
       <div class="section__header">
         <h2 class="section__title">Акции</h2>
-        <a class="btn btn-outline-secondary" href="">
+        <a class="btn btn-outline-secondary d-none d-sm-flex" href="">
           Все акции
           <i class="icon icon--gt ml-2"></i>
         </a>
       </div>
       <!-- /.section__header -->
+    </div>
+    <!-- /.container -->
 
-      <div class="promotion">
-        <div class="row mb-3">
-          <div class="col-6">
+    <div class="promotion overflow-auto mb-sm-n3">
+      <div class="container">
+        <div class="row flex-wrap flex-sm-nowrap flex-xl-wrap">
+          <div class="col-6 col-md-8 col-lg-6 mb-3">
             <div class="card product-card">
               <div class="row no-gutters">
-                <div class="col-5">
+                <div class="col-12 col-md-5">
                   <div class="product-card__wrapper">
                     <div class="product-card__discount">
                       <span class="price price--discount">25</span>
@@ -103,8 +106,8 @@
                 </div>
                 <!-- /.col-6 -->
 
-                <div class="col-7">
-                  <div class="product-card__content p-3 border-left">
+                <div class="col-12 col-md-7">
+                  <div class="product-card__content p-2 p-sm-3 border-md-left border-top border-md-top-0">
                     <h3 class="product-card__title mb-3">
                       Рубероид РКП-350 ТУ, размер материала 1 х 10 м (10м2, 1 рулон)
                     </h3>
@@ -130,10 +133,10 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-6">
+          <div class="col-6 col-md-8 col-lg-6 mb-3">
             <div class="card product-card">
               <div class="row no-gutters">
-                <div class="col-5">
+                <div class="col-12 col-md-5">
                   <div class="product-card__wrapper">
                     <div class="product-card__discount">
                       <span class="price price--discount">30</span>
@@ -147,8 +150,8 @@
                 </div>
                 <!-- /.col-6 -->
 
-                <div class="col-7">
-                  <div class="product-card__content p-3 border-left">
+                <div class="col-12 col-md-7">
+                  <div class="product-card__content p-2 p-sm-3 border-md-left border-top border-md-top-0">
                     <h3 class="product-card__title mb-3">
                       Пена монтажная ТЕХНОНИКОЛЬ MASTER 65 профессиональная всесезонная
                     </h3>
@@ -173,14 +176,11 @@
             <!-- /.card -->
           </div>
           <!-- /.col-6 -->
-        </div>
-        <!-- /.row -->
 
-        <div class="row">
-          <div class="col-6">
+          <div class="col-6 col-md-8 col-lg-6 mb-3">
             <div class="card product-card">
               <div class="row no-gutters">
-                <div class="col-5">
+                <div class="col-12 col-md-5">
                   <div class="product-card__wrapper">
                     <div class="product-card__discount">
                       <span class="price price--discount">25</span>
@@ -194,8 +194,8 @@
                 </div>
                 <!-- /.col-6 -->
 
-                <div class="col-7">
-                  <div class="product-card__content p-3 border-left">
+                <div class="col-12 col-md-7">
+                  <div class="product-card__content p-2 p-sm-3 border-md-left border-top border-md-top-0">
                     <h3 class="product-card__title mb-3">
                       Сетка "Рабица" яч. 50х50/1,5х10 м-ОЦ
                     </h3>
@@ -221,10 +221,10 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-6">
+          <div class="col-6 col-md-8 col-lg-6 mb-3">
             <div class="card product-card">
               <div class="row no-gutters">
-                <div class="col-5">
+                <div class="col-12 col-md-5">
                   <div class="product-card__wrapper">
                     <div class="product-card__discount">
                       <span class="price price--discount">30</span>
@@ -238,8 +238,8 @@
                 </div>
                 <!-- /.col-6 -->
 
-                <div class="col-7">
-                  <div class="product-card__content p-3 border-left">
+                <div class="col-12 col-md-7">
+                  <div class="product-card__content p-2 p-sm-3 border-md-left border-top border-md-top-0">
                     <h3 class="product-card__title mb-3">
                       Металлочерепица, цвет коричневый, 1.18 х 1.15 м
                     </h3>
@@ -266,10 +266,15 @@
           <!-- /.col-6 -->
         </div>
         <!-- /.row -->
+
+        <a class="btn btn-outline-secondary d-flex d-sm-none justify-content-center" href="">
+          Все акции
+          <i class="icon icon--gt ml-2"></i>
+        </a>
       </div>
-      <!-- /.promotion -->
+      <!-- /.container -->
     </div>
-    <!-- /.container -->
+    <!-- /.promotion -->
   </section>
 
   <section id="popular-category" class="section">
@@ -279,16 +284,16 @@
           Популярные категории
         </h2>
 
-        <a class="btn btn-outline-secondary" href="">
+        <a class="btn btn-outline-secondary d-none d-sm-flex" href="">
           Все категории
           <i class="icon icon--gt ml-2"></i>
         </a>
       </div>
       <!-- /.section__header -->
 
-      <div class="popular-category">
-        <div class="row mb-3">
-          <div class="col-2">
+      <div class="popular-category mb-sm-n3">
+        <div class="row">
+          <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-3">
             <div class="card category-card">
               <h3 class="category-card__title">Душевые</h3>
               <picture class="category-card__picture picture picture--contain">
@@ -301,7 +306,7 @@
           </div>
           <!-- /.col-2 -->
 
-          <div class="col-2">
+          <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-3">
             <div class="card category-card">
               <h3 class="category-card__title">Пиломатериалы</h3>
               <picture class="category-card__picture picture picture--contain">
@@ -314,7 +319,7 @@
           </div>
           <!-- /.col-2 -->
 
-          <div class="col-2">
+          <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-3">
             <div class="card category-card">
               <h3 class="category-card__title">Линолеум</h3>
               <picture class="category-card__picture picture picture--contain">
@@ -327,7 +332,7 @@
           </div>
           <!-- /.col-2 -->
 
-          <div class="col-2">
+          <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-3">
             <div class="card category-card">
               <h3 class="category-card__title">Обои</h3>
               <picture class="category-card__picture picture picture--contain">
@@ -340,7 +345,7 @@
           </div>
           <!-- /.col-2 -->
 
-          <div class="col-2">
+          <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-3">
             <div class="card category-card">
               <h3 class="category-card__title">Инструменты</h3>
               <picture class="category-card__picture picture picture--contain">
@@ -353,7 +358,7 @@
           </div>
           <!-- /.col-2 -->
 
-          <div class="col-2">
+          <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-3">
             <div class="card category-card">
               <h3 class="category-card__title">Товары для дачи</h3>
               <picture class="category-card__picture picture picture--contain">
@@ -365,11 +370,8 @@
             <!-- /.card category-card -->
           </div>
           <!-- /.col-2 -->
-        </div>
-        <!-- /.row -->
 
-        <div class="row">
-          <div class="col-2">
+          <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-3">
             <div class="card category-card">
               <h3 class="category-card__title">Окна</h3>
               <picture class="category-card__picture picture picture--contain">
@@ -382,7 +384,7 @@
           </div>
           <!-- /.col-2 -->
 
-          <div class="col-2">
+          <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-3">
             <div class="card category-card">
               <h3 class="category-card__title">Двери</h3>
               <picture class="category-card__picture picture picture--contain">
@@ -395,7 +397,7 @@
           </div>
           <!-- /.col-2 -->
 
-          <div class="col-2">
+          <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-3">
             <div class="card category-card">
               <h3 class="category-card__title">Сантехника</h3>
               <picture class="category-card__picture picture picture--contain">
@@ -408,7 +410,7 @@
           </div>
           <!-- /.col-2 -->
 
-          <div class="col-2">
+          <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-3">
             <div class="card category-card">
               <h3 class="category-card__title">Краски</h3>
               <picture class="category-card__picture picture picture--contain">
@@ -421,7 +423,7 @@
           </div>
           <!-- /.col-2 -->
 
-          <div class="col-2">
+          <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-3">
             <div class="card category-card">
               <h3 class="category-card__title">Электротовары</h3>
               <picture class="category-card__picture picture picture--contain">
@@ -434,7 +436,7 @@
           </div>
           <!-- /.col-2 -->
 
-          <div class="col-2">
+          <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-3">
             <div class="card category-card">
               <h3 class="category-card__title">Интерьер</h3>
               <picture class="category-card__picture picture picture--contain">
@@ -448,6 +450,11 @@
           <!-- /.col-2 -->
         </div>
         <!-- /.row -->
+
+        <a class="btn btn-outline-secondary d-flex d-sm-none justify-content-center" href="">
+          Все категории
+          <i class="icon icon--gt ml-2"></i>
+        </a>
       </div>
       <!-- /.popular-category -->
     </div>
@@ -463,9 +470,9 @@
       </div>
       <!-- /.section__header -->
 
-      <div class="popular-product">
-        <div class="row mb-3">
-          <div class="col-3">
+      <div class="popular-product mb-n3">
+        <div class="row">
+          <div class="col-6 col-md-4 col-lg-3 mb-3">
             <div class="card product-card">
               <div class="row">
                 <div class="col-12">
@@ -479,7 +486,7 @@
                 <!-- /.col-12 -->
 
                 <div class="col-12">
-                  <div class="product-card__content p-3 border-top">
+                  <div class="product-card__content p-2 p-sm-3 border-top">
                     <h3 class="product-card__title mb-3">
                       Металлочерепица, цвет коричневый, 1.18 х 1.15 м
                     </h3>
@@ -504,7 +511,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="col-3">
+          <div class="col-6 col-md-4 col-lg-3 mb-3">
             <div class="card product-card">
               <div class="row">
                 <div class="col-12">
@@ -518,7 +525,7 @@
                 <!-- /.col-12 -->
 
                 <div class="col-12">
-                  <div class="product-card__content p-3 border-top">
+                  <div class="product-card__content p-2 p-sm-3 border-top">
                     <h3 class="product-card__title mb-3">
                       Металлочерепица, цвет коричневый, 1.18 х 1.15 м
                     </h3>
@@ -543,7 +550,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="col-3">
+          <div class="col-6 col-md-4 col-lg-3 mb-3">
             <div class="card product-card">
               <div class="row">
                 <div class="col-12">
@@ -557,7 +564,7 @@
                 <!-- /.col-12 -->
 
                 <div class="col-12">
-                  <div class="product-card__content p-3 border-top">
+                  <div class="product-card__content p-2 p-sm-3 border-top">
                     <h3 class="product-card__title mb-3">
                       Металлочерепица, цвет коричневый, 1.18 х 1.15 м
                     </h3>
@@ -582,7 +589,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="col-3">
+          <div class="col-6 col-md-4 col-lg-3 mb-3">
             <div class="card product-card">
               <div class="row">
                 <div class="col-12">
@@ -596,7 +603,7 @@
                 <!-- /.col-12 -->
 
                 <div class="col-12">
-                  <div class="product-card__content p-3 border-top">
+                  <div class="product-card__content p-2 p-sm-3 border-top">
                     <h3 class="product-card__title mb-3">
                       Металлочерепица, цвет коричневый, 1.18 х 1.15 м
                     </h3>
@@ -620,11 +627,8 @@
             <!-- /.card -->
           </div>
           <!-- /.col-3 -->
-        </div>
-        <!-- /.row -->
 
-        <div class="row mb-3">
-          <div class="col-3">
+          <div class="col-6 col-md-4 col-lg-3 mb-3">
             <div class="card product-card">
               <div class="row">
                 <div class="col-12">
@@ -638,7 +642,7 @@
                 <!-- /.col-12 -->
 
                 <div class="col-12">
-                  <div class="product-card__content p-3 border-top">
+                  <div class="product-card__content p-2 p-sm-3 border-top">
                     <h3 class="product-card__title mb-3">
                       Металлочерепица, цвет коричневый, 1.18 х 1.15 м
                     </h3>
@@ -663,7 +667,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="col-3">
+          <div class="col-6 col-md-4 col-lg-3 mb-3">
             <div class="card product-card">
               <div class="row">
                 <div class="col-12">
@@ -677,7 +681,7 @@
                 <!-- /.col-12 -->
 
                 <div class="col-12">
-                  <div class="product-card__content p-3 border-top">
+                  <div class="product-card__content p-2 p-sm-3 border-top">
                     <h3 class="product-card__title mb-3">
                       Рулетка 3м
                     </h3>
@@ -702,7 +706,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="col-3">
+          <div class="col-6 col-md-4 col-lg-3 mb-3">
             <div class="card product-card">
               <div class="row">
                 <div class="col-12">
@@ -716,7 +720,7 @@
                 <!-- /.col-12 -->
 
                 <div class="col-12">
-                  <div class="product-card__content p-3 border-top">
+                  <div class="product-card__content p-2 p-sm-3 border-top">
                     <h3 class="product-card__title mb-3">
                       Металлочерепица, цвет коричневый, 1.18 х 1.15 м
                     </h3>
@@ -741,7 +745,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="col-3">
+          <div class="col-6 col-md-4 col-lg-3 mb-3">
             <div class="card product-card">
               <div class="row">
                 <div class="col-12">
@@ -755,7 +759,7 @@
                 <!-- /.col-12 -->
 
                 <div class="col-12">
-                  <div class="product-card__content p-3 border-top">
+                  <div class="product-card__content p-2 p-sm-3 border-top">
                     <h3 class="product-card__title mb-3">
                       Металлочерепица, цвет коричневый, 1.18 х 1.15 м
                     </h3>
@@ -779,11 +783,8 @@
             <!-- /.card -->
           </div>
           <!-- /.col-3 -->
-        </div>
-        <!-- /.row -->
 
-        <div class="row">
-          <div class="col-3">
+          <div class="col-6 col-md-4 col-lg-3 mb-3">
             <div class="card product-card">
               <div class="row">
                 <div class="col-12">
@@ -797,7 +798,7 @@
                 <!-- /.col-12 -->
 
                 <div class="col-12">
-                  <div class="product-card__content p-3 border-top">
+                  <div class="product-card__content p-2 p-sm-3 border-top">
                     <h3 class="product-card__title mb-3">
                       Металлочерепица, цвет коричневый, 1.18 х 1.15 м
                     </h3>
@@ -822,7 +823,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="col-3">
+          <div class="col-6 col-md-4 col-lg-3 mb-3">
             <div class="card product-card">
               <div class="row">
                 <div class="col-12">
@@ -836,7 +837,7 @@
                 <!-- /.col-12 -->
 
                 <div class="col-12">
-                  <div class="product-card__content p-3 border-top">
+                  <div class="product-card__content p-2 p-sm-3 border-top">
                     <h3 class="product-card__title mb-3">
                       Металлочерепица, цвет коричневый, 1.18 х 1.15 м
                     </h3>
@@ -861,7 +862,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="col-3">
+          <div class="col-6 col-md-4 col-lg-3 mb-3">
             <div class="card product-card">
               <div class="row">
                 <div class="col-12">
@@ -875,7 +876,7 @@
                 <!-- /.col-12 -->
 
                 <div class="col-12">
-                  <div class="product-card__content p-3 border-top">
+                  <div class="product-card__content p-2 p-sm-3 border-top">
                     <h3 class="product-card__title mb-3">
                       Металлочерепица, цвет коричневый, 1.18 х 1.15 м
                     </h3>
@@ -900,7 +901,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="col-3">
+          <div class="col-6 col-md-4 col-lg-3 mb-3">
             <div class="card product-card">
               <div class="row">
                 <div class="col-12">
@@ -914,7 +915,7 @@
                 <!-- /.col-12 -->
 
                 <div class="col-12">
-                  <div class="product-card__content p-3 border-top">
+                  <div class="product-card__content p-2 p-sm-3 border-top">
                     <h3 class="product-card__title mb-3">
                       Клейкая лента металлизированная Изоспан FL 5х5000 см
                     </h3>

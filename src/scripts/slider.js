@@ -20,5 +20,16 @@ $(document).ready(function () {
     navContainer: '#feedback .section__header .slider-nav',
     navText: '',
     margin: 16,
+    items: 1,
+
+    responsive: {
+      768: {
+        items: 2,
+      },
+
+      1200: {
+        items: 3,
+      }
+    }
   });
 });

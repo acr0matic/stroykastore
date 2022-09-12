@@ -1,4 +1,8 @@
 #feedback {
+  @include breakpoint($breakpoint-mobile--large) {
+    padding: 40px 0 30px;
+  }
+
   overflow: hidden;
   padding: 80px 0;
   background-color: $gray-100;
