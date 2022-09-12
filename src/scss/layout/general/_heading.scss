@@ -1,6 +1,34 @@
 .heading {
   position: relative;
 
+  .container--wide {
+    @include breakpoint($breakpoint-laptop) {
+      position: relative;
+    }
+  }
+
+  .page__description {
+    @include breakpoint($breakpoint-tablet--large) {
+      font-size: $font-size__text--big;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      width: 70%;
+      font-size: $font-size__text--regular;
+
+      br {
+        display: none;
+      }
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      width: 100%;
+
+      font-weight: $weight-Medium;
+      font-size: $font-size__text--small;
+    }
+  }
+
   &--offset {
     @include breakpoint($breakpoint-tablet--large) {
       margin-bottom: 30px;
@@ -10,6 +38,18 @@
   }
 
   &__content {
+    @include breakpoint($breakpoint-laptop) {
+      padding: 40px 40px 60px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      padding-bottom: 70px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      padding: 20px 20px 40px;
+    }
+
     position: relative;
     z-index: 2;
 
@@ -17,6 +57,22 @@
   }
 
   &__background {
+    @include breakpoint($breakpoint-laptop) {
+      background-position-x: 18%;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      background-position-x: 40%;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      background-position-x: 48%;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      background-position-x: 0;
+    }
+
     position: absolute;
     z-index: 1;
     top: 0;
