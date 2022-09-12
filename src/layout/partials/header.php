@@ -77,23 +77,23 @@
               <nav class="nav nav--top">
                 <ul class="nav__list">
                   <li class="nav__item d-none d-md-block">
-                    <a class="nav__link" href="">Бренды</a>
+                    <a class="nav__link" href="brands.php">Бренды</a>
                   </li>
 
                   <li class="nav__item">
-                    <a class="nav__link" href="">Доставка</a>
+                    <a class="nav__link" href="delivery.php">Доставка</a>
                   </li>
 
                   <li class="nav__item">
-                    <a class="nav__link" href="">Возврат</a>
+                    <a class="nav__link" href="refund.php">Возврат</a>
                   </li>
 
                   <li class="nav__item d-none d-md-block">
-                    <a class="nav__link" href="">Документация</a>
+                    <a class="nav__link" href="documentation.php">Документация</a>
                   </li>
 
                   <li class="nav__item">
-                    <a class="nav__link" href="">Контакты</a>
+                    <a class="nav__link" href="contact.php">Контакты</a>
                   </li>
                 </ul>
               </nav>
@@ -112,13 +112,13 @@
           <div class="container">
             <div class="row align-items-center">
               <div class="col-3 d-block d-sm-none">
-
+                <div class="header__burger icon icon--burger"></div>
               </div>
               <!-- /.col-3 col-sm-0 -->
 
               <div class="col-6 col-sm-3">
                 <div class="header__logo">
-                  <a href="">
+                  <a href="index.php">
                     <img class="logo logo--header" src="img/logo__header.svg" alt="">
                   </a>
                 </div>

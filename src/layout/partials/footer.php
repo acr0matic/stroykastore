@@ -6,7 +6,7 @@
         <div class="row">
           <div class="col-12 col-lg-4 d-flex d-lg-block flex-column flex-sm-row border-bottom border-lg-bottom-0 border-dark pb-3 mb-3">
             <div class="footer__logo">
-              <a href="">
+              <a href="index.php">
                 <img src="img/logo__footer.svg" alt="" class="logo logo--footer">
               </a>
             </div>
@@ -75,11 +75,11 @@
                   </li>
 
                   <li class="nav__item">
-                    <a class="nav__link" href="">Бренды</a>
+                    <a class="nav__link" href="brands.php">Бренды</a>
                   </li>
 
                   <li class="nav__item">
-                    <a class="nav__link" href="">Контакты</a>
+                    <a class="nav__link" href="contact.php">Контакты</a>
                   </li>
                 </ul>
               </nav>
@@ -98,15 +98,15 @@
                   </li>
 
                   <li class="nav__item">
-                    <a class="nav__link" href="">Доставка</a>
+                    <a class="nav__link" href="delivery.php">Доставка</a>
                   </li>
 
                   <li class="nav__item">
-                    <a class="nav__link" href="">Возврат</a>
+                    <a class="nav__link" href="refund.php">Возврат</a>
                   </li>
 
                   <li class="nav__item">
-                    <a class="nav__link" href="">Документация</a>
+                    <a class="nav__link" href="documentation.php">Документация</a>
                   </li>
                 </ul>
               </nav>

@@ -1,5 +1,5 @@
 src/scss/core/**/*.scss
-src/scss/extension/*.scss
+src/scss/extension/**/*.scss
 src/scss/library/**/*.scss
 
 src/scripts/libraries/*.js

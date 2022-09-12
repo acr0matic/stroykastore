@@ -59,6 +59,12 @@
     }
   }
 
+  &__logo {
+    @include breakpoint($breakpoint-mobile--large) {
+      text-align: center;
+    }
+  }
+
   &__action {
     display: flex;
     align-items: center;
@@ -66,6 +72,10 @@
     .link {
       @include breakpoint($breakpoint-tablet--large) {
         width: 65px;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        width: auto;
       }
 
       width: 82px;
@@ -89,6 +99,13 @@
 
         color: $gray-700;
       }
+    }
+  }
+
+  .icon {
+    @include breakpoint($breakpoint-mobile--large) {
+      width: 40px;
+      height: 40px;
     }
   }
 }
