@@ -13,6 +13,14 @@
       color: $gray-700;
     }
 
+    a {
+      @media (hover: hover) {
+        &:hover {
+          opacity: 0.6;
+        }
+      }
+    }
+
     & + .breadcrumb-item::before {
       content: "→";
       padding-right: 0.5rem;

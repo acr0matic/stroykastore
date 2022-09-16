@@ -2,4 +2,6 @@ body {
   @include breakpoint($breakpoint-mobile--large) {
     font-size: $font-size__text--small;
   }
+
+  padding-right: 0 !important;
 }

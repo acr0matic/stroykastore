@@ -60,7 +60,7 @@
   <!-- endbuild -->
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
   <!-- Шапка -->
   <header id="header">
     <div class="header">

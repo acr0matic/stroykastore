@@ -45,11 +45,33 @@
           </li>
 
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pill-eng-1" data-toggle="pill" data-target="#tab-eng-1" type="button" role="tab" aria-controls="tab-eng-1" aria-selected="false">A</button>
+            <button class="nav-link" id="pill-en-1" data-toggle="pill" data-target="#tab-en-1" type="button" role="tab" aria-controls="tab-en-1" aria-selected="false">A</button>
           </li>
 
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pill-eng-1" data-toggle="pill" data-target="#tab-eng-2" type="button" role="tab" aria-controls="tab-eng-2" aria-selected="false">B</button>
+            <button class="nav-link" id="pill-en-1" data-toggle="pill" data-target="#tab-en-2" type="button" role="tab" aria-controls="tab-en-2" aria-selected="false">B</button>
+          </li>
+        </ul>
+
+        <ul class="nav nav-pills" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pill-ru-1" data-toggle="pill" data-target="#tab-ru-1" type="button" role="tab" aria-controls="tab-ru-1" aria-selected="false">А</button>
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pill-ru-2" data-toggle="pill" data-target="#tab-ru-2" type="button" role="tab" aria-controls="tab-ru-2" aria-selected="false">Б</button>
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pill-ru-3" data-toggle="pill" data-target="#tab-ru-3" type="button" role="tab" aria-controls="tab-ru-3" aria-selected="false">В</button>
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pill-ru-4" data-toggle="pill" data-target="#tab-ru-4" type="button" role="tab" aria-controls="tab-ru-4" aria-selected="false">Г</button>
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pill-ru-5" data-toggle="pill" data-target="#tab-ru-5" type="button" role="tab" aria-controls="tab-ru-5" aria-selected="false">Д</button>
           </li>
         </ul>
 
@@ -106,7 +128,7 @@
             <!-- /.row -->
           </div>
 
-          <div class="tab-pane fade" id="tab-eng-1" role="tabpanel">
+          <div class="tab-pane fade" id="tab-en-1" role="tabpanel">
             <div class="row">
               <div class="col-3 col-md-2">
                 <div class="list-brand__letter">A</div>
@@ -133,7 +155,7 @@
             <!-- /.row -->
           </div>
 
-          <div class="tab-pane fade" id="tab-eng-2" role="tabpanel">
+          <div class="tab-pane fade" id="tab-en-2" role="tabpanel">
             <div class="row">
               <div class="col-3 col-md-2">
                 <div class="list-brand__letter">B</div>
@@ -153,6 +175,116 @@
                   <li><a href="">Bostik</a></li>
                   <li><a href="">Braver</a></li>
                   <li><a href="">Bussare</a></li>
+                </ul>
+              </div>
+              <!-- /.col-2 -->
+            </div>
+            <!-- /.row -->
+          </div>
+
+          <div class="tab-pane fade" id="tab-ru-1" role="tabpanel">
+            <div class="row">
+              <div class="col-3 col-md-2">
+                <div class="list-brand__letter">А</div>
+              </div>
+              <!-- /.col-2 -->
+
+              <div class="col-9 col-md-10">
+                <ul class="list-brand__list">
+                  <li><a href="">АНИ</a></li>
+                  <li><a href="">АСБ-Мебель</a></li>
+                  <li><a href="">Авангард</a></li>
+                  <li><a href="">Аист</a></li>
+                  <li><a href="">Аквафор</a></li>
+                  <li><a href="">Альпа</a></li>
+                  <li><a href="">Алюмет</a></li>
+                  <li><a href="">Арей</a></li>
+                  <li><a href="">Артекс</a></li>
+                  <li><a href="">Астрохим</a></li>
+                </ul>
+              </div>
+              <!-- /.col-2 -->
+            </div>
+            <!-- /.row -->
+          </div>
+
+          <div class="tab-pane fade" id="tab-ru-2" role="tabpanel">
+            <div class="row">
+              <div class="col-3 col-md-2">
+                <div class="list-brand__letter">Б</div>
+              </div>
+              <!-- /.col-2 -->
+
+              <div class="col-9 col-md-10">
+                <ul class="list-brand__list">
+                  <li><a href="">Банные штучки</a></li>
+                  <li><a href="">Барьер</a></li>
+                  <li><a href="">Белвинил</a></li>
+                  <li><a href="">Брянские обои</a></li>
+                  <li><a href="">Бытпласт</a></li>
+                </ul>
+              </div>
+              <!-- /.col-2 -->
+            </div>
+            <!-- /.row -->
+          </div>
+
+          <div class="tab-pane fade" id="tab-ru-3" role="tabpanel">
+            <div class="row">
+              <div class="col-3 col-md-2">
+                <div class="list-brand__letter">В</div>
+              </div>
+              <!-- /.col-2 -->
+
+              <div class="col-9 col-md-10">
+                <ul class="list-brand__list">
+                  <li><a href="">Банные штучки</a></li>
+                  <li><a href="">Барьер</a></li>
+                  <li><a href="">Белвинил</a></li>
+                  <li><a href="">Брянские обои</a></li>
+                  <li><a href="">Бытпласт</a></li>
+                </ul>
+              </div>
+              <!-- /.col-2 -->
+            </div>
+            <!-- /.row -->
+          </div>
+
+          <div class="tab-pane fade" id="tab-ru-4" role="tabpanel">
+            <div class="row">
+              <div class="col-3 col-md-2">
+                <div class="list-brand__letter">Г</div>
+              </div>
+              <!-- /.col-2 -->
+
+              <div class="col-9 col-md-10">
+                <ul class="list-brand__list">
+                  <li><a href="">Банные штучки</a></li>
+                  <li><a href="">Барьер</a></li>
+                  <li><a href="">Белвинил</a></li>
+                  <li><a href="">Брянские обои</a></li>
+                  <li><a href="">Бытпласт</a></li>
+                </ul>
+              </div>
+              <!-- /.col-2 -->
+            </div>
+            <!-- /.row -->
+          </div>
+
+          <div class="tab-pane fade" id="tab-ru-5" role="tabpanel">
+            <div class="row">
+              <div class="col-3 col-md-2">
+                <div class="list-brand__letter">Д</div>
+              </div>
+              <!-- /.col-2 -->
+
+              <div class="col-9 col-md-10">
+                <ul class="list-brand__list">
+                  <li><a href="">Банные штучки</a></li>
+                  <li><a href="">Барьер</a></li>
+                  <li><a href="">Белвинил</a></li>
+                  <li><a href="">Брянские обои</a></li>
+                  <li><a href="">Бытпласт</a></li>
                 </ul>
               </div>
               <!-- /.col-2 -->

@@ -29,7 +29,7 @@
             </div>
             <!-- /.col -->
 
-            <div class="col-12 col-sm-6 mb-sm-4">
+            <div class="col-12 col-sm-6 mb-sm-2">
               <div class="form-group">
                 <label for="input-password">Новый пароль</label>
                 <input name="user_password" type="password" class="form-control" id="input-password" placeholder="****************">
@@ -37,7 +37,7 @@
             </div>
             <!-- /.col -->
 
-            <div class="col-12 col-sm-6 mb-3 mb-sm-4">
+            <div class="col-12 col-sm-6 mb-3 mb-sm-2">
               <div class="form-group">
                 <label for="input-password">Подтверждение пароля</label>
                 <input name="user_password" type="password" class="form-control" id="input-password" placeholder="****************">
@@ -46,7 +46,7 @@
             <!-- /.col -->
 
             <div class="col-12">
-              <button class="btn btn-primary btn-block mb-2">Зарегистрироваться</button>
+              <button class="btn btn-primary btn-block">Зарегистрироваться</button>
             </div>
             <!-- /.col-12 -->
           </div>

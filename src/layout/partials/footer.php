@@ -1,5 +1,5 @@
 <!-- Подвал -->
-<footer id="footer">
+<footer id="footer" class="mt-auto">
   <div class="container">
     <div class="footer">
       <div class="footer__content">
