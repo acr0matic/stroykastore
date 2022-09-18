@@ -149,6 +149,7 @@
 
 <?php include_once('modal/login.php') ?>
 <?php include_once('modal/registration.php') ?>
+<?php include_once('modal/error.php') ?>
 
 <!-- Скрипты -->
 <!-- build:js js/script.min.js -->
