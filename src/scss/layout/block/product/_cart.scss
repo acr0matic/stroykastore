@@ -1,0 +1,35 @@
+.cart-card {
+  font-size: $font-size__text--big;
+
+  &__title,
+  &__count {
+    font-size: $font-size__text--regular;
+  }
+
+  &__title {
+    @include breakpoint($breakpoint-mobile--large) {
+      margin-bottom: 4px;
+    }
+
+    margin-bottom: 12px;
+  }
+
+  &__price {
+    @include breakpoint($breakpoint-mobile--large) {
+      margin-bottom: 4px;
+    }
+
+    margin-bottom: 12px;
+
+    font-weight: $weight-Bold;
+    font-size: 20px;
+  }
+
+  &__picture {
+    @include breakpoint($breakpoint-mobile--large) {
+      height: 200px;
+    }
+
+    height: 100%;
+  }
+}
