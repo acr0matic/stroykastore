@@ -1,0 +1,4 @@
+.position-sticky {
+  top: calc(100px + var(--sticky-offset));
+  transition: $transition-base;
+}

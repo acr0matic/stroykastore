@@ -27,7 +27,7 @@
         <div class="card">
           <div class="row">
             <div class="col-lg-5 col-xl-6 border-lg-right pr-0">
-              <picture class="item__picture picture picture--contain">
+              <picture class="picture picture--contain position-sticky">
                 <img class="picture__media lazy" data-src="" src="img/page/item/item.jpg" alt="">
               </picture>
             </div>
@@ -58,16 +58,16 @@
 
                   <div class="input-group counter ml-3">
                     <span class="input-group-prepend">
-                      <button disabled type="button" class="btn btn-outline-secondary btn-number" data-type="minus">
-                        <span class="fa fa-minus">-</span>
+                      <button type="button" class="btn btn-outline-secondary btn-number" data-type="plus">
+                        <i class="icon icon--plus"></i>
                       </button>
                     </span>
 
                     <input type="number" class="form-control input-number" value="1" min="1" max="99">
 
                     <span class="input-group-append">
-                      <button type="button" class="btn btn-outline-secondary btn-number" data-type="plus">
-                        <span class="fa fa-plus">+</span>
+                      <button disabled type="button" class="btn btn-outline-secondary btn-number" data-type="minus">
+                        <i class="icon icon--minus"></i>
                       </button>
                     </span>
                   </div>
