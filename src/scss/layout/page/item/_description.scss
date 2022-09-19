@@ -1,0 +1,8 @@
+#description {
+}
+
+.description {
+  @include breakpoint($breakpoint-laptop) {
+    padding: 40px 0;
+  }
+}

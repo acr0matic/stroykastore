@@ -1,0 +1,53 @@
+.counter {
+  & > * {
+    @include breakpoint($breakpoint-mobile--large) {
+      width: 51px !important;
+      height: 51px !important;
+    }
+
+    width: 53px !important;
+    height: 53px !important;
+  }
+
+  .btn {
+    width: 100%;
+    height: 100%;
+  }
+
+  .input-group-prepend,
+  .input-group-append {
+    margin: 0;
+  }
+
+  .form-control {
+    flex: initial;
+    height: 100%;
+
+    border-color: $gray-300 !important;
+    border-top: 1px solid $gray-300;
+
+    background-color: $white;
+
+    text-align: center;
+
+    @media (hover: hover) {
+      &:hover {
+        background-color: $white;
+      }
+
+      &:focus {
+        z-index: 1;
+      }
+    }
+
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      margin: 0;
+      -webkit-appearance: none;
+    }
+
+    &[type="number"] {
+      -moz-appearance: textfield;
+    }
+  }
+}

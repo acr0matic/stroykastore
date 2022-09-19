@@ -18,9 +18,6 @@ if (header) {
     if (scroll > lastScroll) bottom.addClass('header__bottom--hide')
     else bottom.removeClass('header__bottom--hide')
 
-    console.log(scroll);
-    console.log(lastScroll);
-
     lastScroll = scroll;
   });
 }

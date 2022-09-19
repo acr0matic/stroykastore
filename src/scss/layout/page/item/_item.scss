@@ -1,0 +1,111 @@
+#item {
+}
+
+.item {
+  @include breakpoint($breakpoint-tablet) {
+    padding-top: 30px;
+  }
+
+  padding-top: 20px;
+
+  .card {
+    @include breakpoint($breakpoint-tablet--large) {
+      border: none;
+    }
+  }
+
+  &__picture {
+    @include breakpoint($breakpoint-laptop) {
+      top: 95px;
+      height: 300px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      height: 240px;
+    }
+
+    position: sticky;
+    top: 70px;
+    height: 428px;
+  }
+
+  &__header {
+    margin-bottom: 0.75rem;
+  }
+
+  &__title {
+    font-weight: $weight-SemiBold;
+    line-height: 1.25;
+  }
+
+  &__stock {
+    @include breakpoint($breakpoint-mobile--large) {
+      margin-bottom: 1.75rem;
+    }
+
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 0.75rem;
+    font-weight: $weight-Medium;
+
+    .icon {
+      margin-right: 4px;
+    }
+
+    &--in {
+      color: $green;
+    }
+
+    &--out {
+      color: $red;
+    }
+  }
+
+  &__price {
+    margin-bottom: 1.75rem;
+
+    font-weight: $weight-SemiBold;
+    font-size: 24px;
+  }
+
+  &__action {
+    position: relative;
+
+    display: flex;
+    margin-bottom: 36px;
+
+    .btn-primary {
+      @include breakpoint($breakpoint-mobile--large) {
+        width: 100%;
+      }
+
+      width: 250px;
+    }
+
+    .counter {
+      @include breakpoint($breakpoint-mobile--large) {
+        position: absolute;
+        top: -75px;
+        right: 0;
+
+        justify-content: flex-end;
+      }
+
+      max-width: 180px;
+    }
+  }
+
+  &__shipper {
+    margin-bottom: 0.75rem;
+  }
+
+  &__delivery {
+    display: flex;
+
+    .icon {
+      flex-shrink: 0;
+      margin-right: 0.75rem;
+    }
+  }
+}

@@ -1,10 +1,22 @@
 .btn {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
 
   padding: 12px 24px;
   color: $black;
 
+  box-shadow: none !important;
+
   font-weight: $weight-Medium;
   font-size: $font-size__text--big;
+
+  &:disabled {
+    background-color: $gray-300;
+    color: $white;
+
+    opacity: 1;
+
+    pointer-events: none;
+  }
 }

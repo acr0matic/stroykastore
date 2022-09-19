@@ -163,6 +163,7 @@
 <script src="scripts/init.js"></script>
 <script src="scripts/header.js"></script>
 <script src="scripts/slider.js"></script>
+<script src="scripts/counter.js"></script>
 <!-- endbuild -->
 
 </body>
