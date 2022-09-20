@@ -5,6 +5,9 @@ $(document).ready(function () {
     navContainer: '#hero .slider-nav',
     navText: '',
 
+    dots: true,
+    dotsContainer: '#hero .slider-pagination',
+
     items: 1,
     loop: true,
 
@@ -17,7 +20,7 @@ $(document).ready(function () {
   $(".slider-feedback").owlCarousel({
     dots: false,
     nav: true,
-    navContainer: '#feedback .section__header .slider-nav',
+    navContainer: '#feedback .slider-nav',
     navText: '',
     margin: 16,
     items: 1,

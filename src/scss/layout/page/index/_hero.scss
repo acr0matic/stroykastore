@@ -49,8 +49,8 @@
     }
 
     @include breakpoint($breakpoint-mobile--large) {
-      padding: 40px 20px;
-      background-position-x: 25%;
+      padding: 20px;
+      background-position-x: 5%;
     }
 
     padding: 40px 0;

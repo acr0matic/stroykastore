@@ -23,7 +23,6 @@
 
                 <div class="hero__action">
                   <button class="btn btn-primary">Подробнее</button>
-
                 </div>
                 <!-- /.hero__action -->
               </div>
@@ -64,7 +63,11 @@
         </div>
         <!-- /.owl-carousel slider-hero -->
 
-        <div class="container slider-nav">
+        <div class="container slider-nav d-none d-sm-flex">
+        </div>
+        <!-- /.container -->
+
+        <div class="container slider-pagination d-sm-none">
         </div>
         <!-- /.container -->
       </div>
@@ -992,7 +995,7 @@
           Отзывы
         </h2>
 
-        <div class="slider-nav">
+        <div class="slider-nav d-none d-sm-flex">
 
         </div>
         <!-- /.slider-nav -->
@@ -1088,6 +1091,11 @@
         <!-- /.row -->
       </div>
       <!-- /.feedback -->
+
+      <div class="slider-nav d-flex d-sm-none mt-3">
+
+      </div>
+      <!-- /.slider-nav -->
     </div>
     <!-- /.container -->
   </section>

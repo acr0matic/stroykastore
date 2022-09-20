@@ -46,3 +46,25 @@
     content: url("../img/icons/control/slider__next.svg");
   }
 }
+
+.slider-pagination {
+  .owl-dot {
+    width: 8px;
+    height: 8px;
+
+    padding: 0;
+
+    border: none;
+    border-radius: 50%;
+
+    background-color: $gray-500;
+
+    &:not(:last-child) {
+      margin-right: 12px;
+    }
+
+    &.active {
+      background-color: $yellow;
+    }
+  }
+}
