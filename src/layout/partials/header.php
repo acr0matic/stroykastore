@@ -67,7 +67,7 @@
       <div class="header__top d-none d-sm-block">
         <div class="container">
           <div class="header-top">
-            <div class="header-top__geo link link--icon">
+            <div class="header-top__geo link link--icon" data-toggle="modal" data-target="#modal-city">
               <i class="icon icon--geo mr-2"></i>
               Москва
             </div>
@@ -150,12 +150,12 @@
                       <span class="link__text">Профиль</span>
                     </a>
 
-                    <a class="link link--vertical link--icon d-none d-sm-flex" href="">
+                    <a class="link link--vertical link--icon d-none d-sm-flex" href="history.php">
                       <i class="icon icon--box"></i>
                       <span class="link__text">Заказы</span>
                     </a>
 
-                    <a class="link link--vertical link--icon" href="">
+                    <a class="link link--vertical link--icon" href="cart.php">
                       <i class="icon icon--cart"></i>
                       <span class="link__text">Корзина</span>
                     </a>

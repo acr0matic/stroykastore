@@ -44,7 +44,7 @@
                   </li>
 
                   <li class="nav__item">
-                    <a class="nav__link" href="">Заказы</a>
+                    <a class="nav__link" href="history.php">Заказы</a>
                   </li>
 
                   <li class="nav__item">
@@ -52,7 +52,7 @@
                   </li>
 
                   <li class="nav__item">
-                    <a class="nav__link" href="">Корзина</a>
+                    <a class="nav__link" href="cart.php">Корзина</a>
                   </li>
                 </ul>
               </nav>
@@ -67,7 +67,7 @@
               <nav class="nav nav--footer">
                 <ul class="nav__list">
                   <li class="nav__item">
-                    <a class="nav__link" href="">Каталог</a>
+                    <a class="nav__link" href="catalog.php">Каталог</a>
                   </li>
 
                   <li class="nav__item">
@@ -147,6 +147,7 @@
   <!-- /.container -->
 </footer>
 
+<?php include_once('modal/city.php') ?>
 <?php include_once('modal/login.php') ?>
 <?php include_once('modal/registration.php') ?>
 <?php include_once('modal/error.php') ?>

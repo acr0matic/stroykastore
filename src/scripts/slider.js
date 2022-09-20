@@ -21,6 +21,7 @@ $(document).ready(function () {
     navText: '',
     margin: 16,
     items: 1,
+    loop: true,
 
     responsive: {
       768: {
