@@ -29,7 +29,7 @@
       <div class="documentation">
         <div class="row">
           <div class="col-6 col-lg-4 mb-3 mb-lg-0">
-            <div class="card documentation-card">
+            <div class="card documentation-card border-0 border-sm">
               <div class="documentation-card__header">
                 <div class="documentation-card__blank">
                   <h3 class="documentation-card__title">Оферта «Безопасная сделка»</h3>
@@ -57,7 +57,7 @@
           <!-- /.col-4 -->
 
           <div class="col-6 col-lg-4 mb-3 mb-lg-0">
-            <div class="card documentation-card">
+            <div class="card documentation-card border-0 border-sm">
               <div class="documentation-card__header">
                 <div class="documentation-card__blank">
                   <h3 class="documentation-card__title">Политика конфиденциальности </h3>
@@ -85,7 +85,7 @@
           <!-- /.col-4 -->
 
           <div class="col-6 col-lg-4">
-            <div class="card documentation-card">
+            <div class="card documentation-card border-0 border-sm">
               <div class="documentation-card__header">
                 <div class="documentation-card__blank">
                   <h3 class="documentation-card__title">Оферта</h3>
