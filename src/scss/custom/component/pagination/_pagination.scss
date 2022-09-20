@@ -1,0 +1,33 @@
+.pagination {
+  @include breakpoint($breakpoint-mobile--large) {
+    justify-content: center;
+  }
+
+  .page-link {
+    @include breakpoint($breakpoint-mobile) {
+      width: 14px;
+      height: 13px;
+    }
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-sizing: content-box;
+
+    width: 15px;
+    height: 14px;
+
+    padding: 14px;
+
+    color: $gray-900;
+    font-weight: $weight-Medium;
+
+    // @media (hover: hover) {
+    //   &:hover {
+    //     background-color: $gray-900;
+    //     color: $gray-100;
+    //   }
+    // }
+  }
+}

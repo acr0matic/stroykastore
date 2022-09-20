@@ -1,0 +1,32 @@
+#category {
+}
+
+.category {
+  &__filter {
+  }
+
+  &__sorting {
+    .active {
+      color: $black;
+    }
+
+    & > * {
+      display: inline-block;
+      color: $gray-500;
+      font-weight: $weight-Medium;
+
+      cursor: pointer;
+      transition: $transition-base;
+
+      @media (hover: hover) {
+        &:hover {
+          color: $black;
+        }
+      }
+
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+    }
+  }
+}
