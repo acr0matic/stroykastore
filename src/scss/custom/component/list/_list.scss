@@ -1,0 +1,47 @@
+.list {
+  padding-left: 0;
+  list-style-type: none;
+
+  &--arrow {
+    li {
+      &:not(:last-child) {
+        margin-bottom: 0.75rem;
+      }
+    }
+
+    a {
+      position: relative;
+      padding: 6px 0;
+
+      font-weight: $weight-Medium;
+
+      @media (hover: hover) {
+        &:hover {
+          padding-left: 20px;
+          color: $gray-900;
+
+          &::before {
+            left: 0;
+            opacity: 1;
+            visibility: visible;
+          }
+        }
+      }
+
+      &::before {
+        content: url("../img/icons/control/nav__arrow--black.svg");
+        position: absolute;
+        z-index: 1;
+        top: 55%;
+        left: -20px;
+
+        opacity: 0;
+        visibility: hidden;
+
+        transform: translateY(-50%);
+
+        transition: $transition-base;
+      }
+    }
+  }
+}

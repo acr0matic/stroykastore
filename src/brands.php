@@ -84,7 +84,7 @@
               <!-- /.col-2 -->
 
               <div class="col-9 col-md-10">
-                <ul class="list-brand__list">
+                <ul class="list-brand__list list list--arrow">
                   <li><a href="">ASB-Woodline</a></li>
                   <li><a href="">AVS</a></li>
                   <li><a href="">Alma Ceramica</a></li>
@@ -109,7 +109,7 @@
               <!-- /.col-2 -->
 
               <div class="col-9 col-md-10">
-                <ul class="list-brand__list">
+                <ul class="list-brand__list list list--arrow">
                   <li><a href="">BLB</a></li>
                   <li><a href="">BOYSCOUT</a></li>
                   <li><a href="">BRAVAT</a></li>
@@ -136,7 +136,7 @@
               <!-- /.col-2 -->
 
               <div class="col-9 col-md-10">
-                <ul class="list-brand__list">
+                <ul class="list-brand__list list list--arrow">
                   <li><a href="">ASB-Woodline</a></li>
                   <li><a href="">AVS</a></li>
                   <li><a href="">Alma Ceramica</a></li>
@@ -163,7 +163,7 @@
               <!-- /.col-2 -->
 
               <div class="col-9 col-md-10">
-                <ul class="list-brand__list">
+                <ul class="list-brand__list list list--arrow">
                   <li><a href="">BLB</a></li>
                   <li><a href="">BOYSCOUT</a></li>
                   <li><a href="">BRAVAT</a></li>
@@ -190,7 +190,7 @@
               <!-- /.col-2 -->
 
               <div class="col-9 col-md-10">
-                <ul class="list-brand__list">
+                <ul class="list-brand__list list list--arrow">
                   <li><a href="">АНИ</a></li>
                   <li><a href="">АСБ-Мебель</a></li>
                   <li><a href="">Авангард</a></li>
@@ -216,7 +216,7 @@
               <!-- /.col-2 -->
 
               <div class="col-9 col-md-10">
-                <ul class="list-brand__list">
+                <ul class="list-brand__list list list--arrow">
                   <li><a href="">Банные штучки</a></li>
                   <li><a href="">Барьер</a></li>
                   <li><a href="">Белвинил</a></li>
@@ -237,7 +237,7 @@
               <!-- /.col-2 -->
 
               <div class="col-9 col-md-10">
-                <ul class="list-brand__list">
+                <ul class="list-brand__list list list--arrow">
                   <li><a href="">Банные штучки</a></li>
                   <li><a href="">Барьер</a></li>
                   <li><a href="">Белвинил</a></li>
@@ -258,7 +258,7 @@
               <!-- /.col-2 -->
 
               <div class="col-9 col-md-10">
-                <ul class="list-brand__list">
+                <ul class="list-brand__list list list--arrow">
                   <li><a href="">Банные штучки</a></li>
                   <li><a href="">Барьер</a></li>
                   <li><a href="">Белвинил</a></li>
@@ -279,7 +279,7 @@
               <!-- /.col-2 -->
 
               <div class="col-9 col-md-10">
-                <ul class="list-brand__list">
+                <ul class="list-brand__list list list--arrow">
                   <li><a href="">Банные штучки</a></li>
                   <li><a href="">Барьер</a></li>
                   <li><a href="">Белвинил</a></li>

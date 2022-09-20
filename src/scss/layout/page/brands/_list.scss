@@ -2,14 +2,6 @@
 }
 
 .list-brand {
-  .nav-pills > li {
-    margin-bottom: 0.5rem;
-
-    &:not(:last-child) {
-      margin-right: 0.5rem;
-    }
-  }
-
   .tab-pane {
     .row {
       padding: 28px 0;
@@ -38,41 +30,6 @@
 
       width: 180px;
       padding-bottom: 0.75rem;
-    }
-
-    a {
-      position: relative;
-      font-weight: $weight-Medium;
-
-      @media (hover: hover) {
-        &:hover {
-          padding-left: 20px;
-          color: $gray-900;
-
-          &::before {
-            left: 0;
-            opacity: 1;
-            visibility: visible;
-          }
-        }
-      }
-
-      &:not(:last-child) {
-        margin-bottom: 0.75rem;
-      }
-
-      &::before {
-        content: url("../img/icons/control/nav__arrow--black.svg");
-        position: absolute;
-        z-index: 1;
-        top: 2px;
-        left: -20px;
-
-        opacity: 0;
-        visibility: hidden;
-
-        transition: $transition-base;
-      }
     }
   }
 }

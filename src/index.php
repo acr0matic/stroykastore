@@ -295,12 +295,15 @@
         <div class="row">
           <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-3">
             <div class="card category-card">
-              <h3 class="category-card__title">Душевые</h3>
-              <picture class="category-card__picture picture picture--contain">
-                <img class="picture__media lazy" data-src="" src="img/content/category/1.png" alt="">
-              </picture>
+              <div class="category-card__wrapper">
+                <h3 class="category-card__title">Душевые</h3>
+                <picture class="category-card__picture picture picture--contain">
+                  <img class="picture__media lazy" data-src="" src="img/content/category/1.png" alt="">
+                </picture>
 
-              <a class="stretched-link" href=""></a>
+                <a class="stretched-link" href=""></a>
+              </div>
+              <!-- /.category-card__wrapper -->
             </div>
             <!-- /.card category-card -->
           </div>
@@ -308,12 +311,15 @@
 
           <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-3">
             <div class="card category-card">
-              <h3 class="category-card__title">Пиломатериалы</h3>
-              <picture class="category-card__picture picture picture--contain">
-                <img class="picture__media lazy" data-src="" src="img/content/category/2.png" alt="">
-              </picture>
+              <div class="category-card__wrapper">
+                <h3 class="category-card__title">Пиломатериалы</h3>
+                <picture class="category-card__picture picture picture--contain">
+                  <img class="picture__media lazy" data-src="" src="img/content/category/2.png" alt="">
+                </picture>
 
-              <a class="stretched-link" href=""></a>
+                <a class="stretched-link" href=""></a>
+              </div>
+              <!-- /.category-card__wrapper -->
             </div>
             <!-- /.card category-card -->
           </div>
@@ -321,12 +327,15 @@
 
           <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-3">
             <div class="card category-card">
-              <h3 class="category-card__title">Линолеум</h3>
-              <picture class="category-card__picture picture picture--contain">
-                <img class="picture__media lazy" data-src="" src="img/content/category/3.png" alt="">
-              </picture>
+              <div class="category-card__wrapper">
+                <h3 class="category-card__title">Линолеум</h3>
+                <picture class="category-card__picture picture picture--contain">
+                  <img class="picture__media lazy" data-src="" src="img/content/category/3.png" alt="">
+                </picture>
 
-              <a class="stretched-link" href=""></a>
+                <a class="stretched-link" href=""></a>
+              </div>
+              <!-- /.category-card__wrapper -->
             </div>
             <!-- /.card category-card -->
           </div>
@@ -334,12 +343,15 @@
 
           <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-3">
             <div class="card category-card">
-              <h3 class="category-card__title">Обои</h3>
-              <picture class="category-card__picture picture picture--contain">
-                <img class="picture__media lazy" data-src="" src="img/content/category/4.png" alt="">
-              </picture>
+              <div class="category-card__wrapper">
+                <h3 class="category-card__title">Обои</h3>
+                <picture class="category-card__picture picture picture--contain">
+                  <img class="picture__media lazy" data-src="" src="img/content/category/4.png" alt="">
+                </picture>
 
-              <a class="stretched-link" href=""></a>
+                <a class="stretched-link" href=""></a>
+              </div>
+              <!-- /.category-card__wrapper -->
             </div>
             <!-- /.card category-card -->
           </div>
@@ -347,12 +359,15 @@
 
           <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-3">
             <div class="card category-card">
-              <h3 class="category-card__title">Инструменты</h3>
-              <picture class="category-card__picture picture picture--contain">
-                <img class="picture__media lazy" data-src="" src="img/content/category/5.png" alt="">
-              </picture>
+              <div class="category-card__wrapper">
+                <h3 class="category-card__title">Инструменты</h3>
+                <picture class="category-card__picture picture picture--contain">
+                  <img class="picture__media lazy" data-src="" src="img/content/category/5.png" alt="">
+                </picture>
 
-              <a class="stretched-link" href=""></a>
+                <a class="stretched-link" href=""></a>
+              </div>
+              <!-- /.category-card__wrapper -->
             </div>
             <!-- /.card category-card -->
           </div>
@@ -360,12 +375,15 @@
 
           <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-3">
             <div class="card category-card">
-              <h3 class="category-card__title">Товары для дачи</h3>
-              <picture class="category-card__picture picture picture--contain">
-                <img class="picture__media lazy" data-src="" src="img/content/category/6.png" alt="">
-              </picture>
+              <div class="category-card__wrapper">
+                <h3 class="category-card__title">Товары для дачи</h3>
+                <picture class="category-card__picture picture picture--contain">
+                  <img class="picture__media lazy" data-src="" src="img/content/category/6.png" alt="">
+                </picture>
 
-              <a class="stretched-link" href=""></a>
+                <a class="stretched-link" href=""></a>
+              </div>
+              <!-- /.category-card__wrapper -->
             </div>
             <!-- /.card category-card -->
           </div>
@@ -373,12 +391,15 @@
 
           <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-3">
             <div class="card category-card">
-              <h3 class="category-card__title">Окна</h3>
-              <picture class="category-card__picture picture picture--contain">
-                <img class="picture__media lazy" data-src="" src="img/content/category/7.png" alt="">
-              </picture>
+              <div class="category-card__wrapper">
+                <h3 class="category-card__title">Окна</h3>
+                <picture class="category-card__picture picture picture--contain">
+                  <img class="picture__media lazy" data-src="" src="img/content/category/7.png" alt="">
+                </picture>
 
-              <a class="stretched-link" href=""></a>
+                <a class="stretched-link" href=""></a>
+              </div>
+              <!-- /.category-card__wrapper -->
             </div>
             <!-- /.card category-card -->
           </div>
@@ -386,12 +407,15 @@
 
           <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-3">
             <div class="card category-card">
-              <h3 class="category-card__title">Двери</h3>
-              <picture class="category-card__picture picture picture--contain">
-                <img class="picture__media lazy" data-src="" src="img/content/category/8.png" alt="">
-              </picture>
+              <div class="category-card__wrapper">
+                <h3 class="category-card__title">Двери</h3>
+                <picture class="category-card__picture picture picture--contain">
+                  <img class="picture__media lazy" data-src="" src="img/content/category/8.png" alt="">
+                </picture>
 
-              <a class="stretched-link" href=""></a>
+                <a class="stretched-link" href=""></a>
+              </div>
+              <!-- /.category-card__wrapper -->
             </div>
             <!-- /.card category-card -->
           </div>
@@ -399,12 +423,15 @@
 
           <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-3">
             <div class="card category-card">
-              <h3 class="category-card__title">Сантехника</h3>
-              <picture class="category-card__picture picture picture--contain">
-                <img class="picture__media lazy" data-src="" src="img/content/category/9.png" alt="">
-              </picture>
+              <div class="category-card__wrapper">
+                <h3 class="category-card__title">Сантехника</h3>
+                <picture class="category-card__picture picture picture--contain">
+                  <img class="picture__media lazy" data-src="" src="img/content/category/9.png" alt="">
+                </picture>
 
-              <a class="stretched-link" href=""></a>
+                <a class="stretched-link" href=""></a>
+              </div>
+              <!-- /.category-card__wrapper -->
             </div>
             <!-- /.card category-card -->
           </div>
@@ -412,12 +439,15 @@
 
           <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-3">
             <div class="card category-card">
-              <h3 class="category-card__title">Краски</h3>
-              <picture class="category-card__picture picture picture--contain">
-                <img class="picture__media lazy" data-src="" src="img/content/category/10.png" alt="">
-              </picture>
+              <div class="category-card__wrapper">
+                <h3 class="category-card__title">Краски</h3>
+                <picture class="category-card__picture picture picture--contain">
+                  <img class="picture__media lazy" data-src="" src="img/content/category/10.png" alt="">
+                </picture>
 
-              <a class="stretched-link" href=""></a>
+                <a class="stretched-link" href=""></a>
+              </div>
+              <!-- /.category-card__wrapper -->
             </div>
             <!-- /.card category-card -->
           </div>
@@ -425,12 +455,15 @@
 
           <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-3">
             <div class="card category-card">
-              <h3 class="category-card__title">Электротовары</h3>
-              <picture class="category-card__picture picture picture--contain">
-                <img class="picture__media lazy" data-src="" src="img/content/category/11.png" alt="">
-              </picture>
+              <div class="category-card__wrapper">
+                <h3 class="category-card__title">Электротовары</h3>
+                <picture class="category-card__picture picture picture--contain">
+                  <img class="picture__media lazy" data-src="" src="img/content/category/11.png" alt="">
+                </picture>
 
-              <a class="stretched-link" href=""></a>
+                <a class="stretched-link" href=""></a>
+              </div>
+              <!-- /.category-card__wrapper -->
             </div>
             <!-- /.card category-card -->
           </div>
@@ -438,12 +471,15 @@
 
           <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-3">
             <div class="card category-card">
-              <h3 class="category-card__title">Интерьер</h3>
-              <picture class="category-card__picture picture picture--contain">
-                <img class="picture__media lazy" data-src="" src="img/content/category/12.png" alt="">
-              </picture>
+              <div class="category-card__wrapper">
+                <h3 class="category-card__title">Интерьер</h3>
+                <picture class="category-card__picture picture picture--contain">
+                  <img class="picture__media lazy" data-src="" src="img/content/category/12.png" alt="">
+                </picture>
 
-              <a class="stretched-link" href=""></a>
+                <a class="stretched-link" href=""></a>
+              </div>
+              <!-- /.category-card__wrapper -->
             </div>
             <!-- /.card category-card -->
           </div>

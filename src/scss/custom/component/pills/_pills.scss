@@ -1,4 +1,12 @@
 .nav-pills {
+  .nav-item {
+    margin-bottom: 0.5rem;
+
+    &:not(:last-child) {
+      margin-right: 0.5rem;
+    }
+  }
+
   .nav-link {
     border: $card-border-width solid $card-border-color;
 

@@ -1,13 +1,19 @@
 .category-card {
   height: 100%;
   border: none;
-  background-color: $gray-100;
 
-  transition: $transition-base;
+  &__wrapper {
+    position: relative;
+    overflow: hidden;
+    max-height: 180px;
+    background-color: $gray-100;
 
-  @media (hover: hover) {
-    &:hover {
-      background-color: $yellow;
+    transition: $transition-base;
+
+    @media (hover: hover) {
+      &:hover {
+        background-color: $yellow;
+      }
     }
   }
 
@@ -22,5 +28,9 @@
   &__picture {
     height: 128px;
     margin-top: auto;
+  }
+
+  &__list {
+    margin-top: 20px;
   }
 }

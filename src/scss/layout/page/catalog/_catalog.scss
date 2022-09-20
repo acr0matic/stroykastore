@@ -1,0 +1,19 @@
+#catalog-body {
+  .tab-pane > .row > div {
+    &:not(:last-child) {
+      @include breakpoint($breakpoint-tablet--large) {
+        margin-bottom: 60px;
+      }
+
+      @include breakpoint($breakpoint-tablet) {
+        margin-bottom: 50px;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        margin-bottom: 30px;
+      }
+
+      margin-bottom: 80px;
+    }
+  }
+}
