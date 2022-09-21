@@ -16,7 +16,6 @@
 
   &__picture {
     @include breakpoint($breakpoint-laptop) {
-      top: 95px;
       height: 300px;
     }
 
@@ -24,8 +23,6 @@
       height: 240px;
     }
 
-    position: sticky;
-    top: 70px;
     height: 428px;
   }
 

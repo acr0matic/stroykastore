@@ -27,7 +27,7 @@
         <div class="card">
           <div class="row">
             <div class="col-lg-5 col-xl-6 border-lg-right pr-0">
-              <picture class="picture picture--contain position-sticky">
+              <picture class="item__picture picture picture--contain position-sticky">
                 <img class="picture__media lazy" data-src="" src="img/page/item/item.jpg" alt="">
               </picture>
             </div>
@@ -103,8 +103,8 @@
 
   <section id="description" class="section">
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 col-lg-10 col-xl-8 px-5 px-lg-0 border border-lg-0">
+      <div class="row justify-content-center border m-0">
+        <div class="col-12 col-lg-10 col-xl-8 px-4 px-sm-5 px-lg-0">
           <div class="description">
             <div class="section__header">
               <h2 class="section__title">

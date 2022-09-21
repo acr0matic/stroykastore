@@ -30,9 +30,49 @@
 
       <div class="row">
         <div class="col-12 col-xl-3">
-          <div class="category__filter">
+          <form action="" class="category__filter filter border">
+            <div class="filter__content p-3">
+              <div class="filter__group">
+                <div class="filter__label">Цена</div>
+                <div class="row">
+                  <div class="col-6">
+                    <input id="amount_min" min="1000" name="min" type="number" class="form-control" id="input-email" placeholder="1 000">
+                  </div>
+                  <!-- /.col-6 -->
 
-          </div>
+                  <div class="col-6">
+                    <input id="amount_max" max="100000" name=" max" type="number" class="form-control" id="input-email" placeholder="100 000">
+                  </div>
+                  <!-- /.col-6 -->
+                </div>
+                <!-- /.row -->
+
+                <div data-min="1000" data-max="100000" id="slider-range"></div>
+              </div>
+              <!-- /.filter__group -->
+
+              <div class="filter__group">
+                <div class="filter__label">Бренд</div>
+                <div class="input-box">
+                  <input placeholder="Поиск" name="search" type="text" class="form-control">
+                  <img src="img/icons/misc/search.svg" alt="">
+                </div>
+              </div>
+              <!-- /.filter__group -->
+
+              <div class="filter__group">
+                <div class="filter__label">Поставщик</div>
+              </div>
+              <!-- /.filter__group -->
+            </div>
+            <!-- /.filter__content -->
+
+            <div class="filter__action border-top p-3">
+              <button class="btn btn-primary btn-block mb-1">Применить</button>
+              <button class="btn btn-outline-secondary btn-block">Сбросить</button>
+            </div>
+            <!-- /.filter__action -->
+          </form>
           <!-- /.category__filter -->
         </div>
         <!-- /.col-3 -->

@@ -8,7 +8,7 @@
 
       <div class="modal-body">
         <form action="">
-          <div class="row">
+          <div class="row no-gutters">
             <div class="col-12 mb-4">
               <div class="input-box">
                 <input placeholder="Поиск" name="search" type="text" class="form-control">
@@ -18,22 +18,22 @@
             <!-- /.col -->
 
             <div class="col-12">
-              <ul class="row list list--arrow mb-n3">
-                <li class="col-4 mb-3"><a href="">Москва</a></li>
-                <li class="col-4 mb-3"><a href="">Санкт-Петербург</a></li>
-                <li class="col-4 mb-3"><a href="">Новосибирск</a></li>
-                <li class="col-4 mb-3"><a href="">Екатеринбург</a></li>
-                <li class="col-4 mb-3"><a href="">Казань</a></li>
-                <li class="col-4 mb-3"><a href="">Нижний Новгород</a></li>
-                <li class="col-4 mb-3"><a href="">Челябинск</a></li>
-                <li class="col-4 mb-3"><a href="">Самара</a></li>
-                <li class="col-4 mb-3"><a href="">Ростов-на-Дону</a></li>
-                <li class="col-4 mb-3"><a href="">Уфа</a></li>
-                <li class="col-4 mb-3"><a href="">Омск</a></li>
-                <li class="col-4 mb-3"><a href="">Красноярск</a></li>
-                <li class="col-4 mb-3"><a href="">Воронеж</a></li>
-                <li class="col-4 mb-3"><a href="">Пермь</a></li>
-                <li class="col-4 mb-3"><a href="">Волгоград</a></li>
+              <ul class="row list list--arrow mb-n3 no-gutters">
+                <li class="col-6 col-sm-4 mb-3"><a href="">Москва</a></li>
+                <li class="col-6 col-sm-4 mb-3"><a href="">Санкт-Петербург</a></li>
+                <li class="col-6 col-sm-4 mb-3"><a href="">Новосибирск</a></li>
+                <li class="col-6 col-sm-4 mb-3"><a href="">Екатеринбург</a></li>
+                <li class="col-6 col-sm-4 mb-3"><a href="">Казань</a></li>
+                <li class="col-6 col-sm-4 mb-3"><a href="">Нижний Новгород</a></li>
+                <li class="col-6 col-sm-4 mb-3"><a href="">Челябинск</a></li>
+                <li class="col-6 col-sm-4 mb-3"><a href="">Самара</a></li>
+                <li class="col-6 col-sm-4 mb-3"><a href="">Ростов-на-Дону</a></li>
+                <li class="col-6 col-sm-4 mb-3"><a href="">Уфа</a></li>
+                <li class="col-6 col-sm-4 mb-3"><a href="">Омск</a></li>
+                <li class="col-6 col-sm-4 mb-3"><a href="">Красноярск</a></li>
+                <li class="col-6 col-sm-4 mb-3"><a href="">Воронеж</a></li>
+                <li class="col-6 col-sm-4 mb-3"><a href="">Пермь</a></li>
+                <li class="col-6 col-sm-4 mb-3"><a href="">Волгоград</a></li>
               </ul>
               <!-- /.category-card__list -->
             </div>

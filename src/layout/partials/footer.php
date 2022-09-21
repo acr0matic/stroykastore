@@ -154,17 +154,20 @@
 
 <!-- Скрипты -->
 <!-- build:js js/script.min.js -->
-<script src="scripts/libraries/jquery.slim.min.js"></script>
+<script src="scripts/libraries/jquery.min.js"></script>
 <script src="scripts/libraries/popper.min.js"></script>
 <script src="scripts/libraries/bootstrap.min.js"></script>
 <script src="scripts/libraries/lazyload.js"></script>
 <script src="scripts/libraries/owl.carousel.min.js"></script>
+<script src="scripts/libraries/jquery-ui.min.js"></script>
+<script src="scripts/libraries/jquery.ui.touch-punch.min.js"></script>
 
 <script src="scripts/base.js"></script>
 <script src="scripts/init.js"></script>
 <script src="scripts/header.js"></script>
 <script src="scripts/slider.js"></script>
 <script src="scripts/counter.js"></script>
+<script src="scripts/filter.js"></script>
 <!-- endbuild -->
 
 </body>

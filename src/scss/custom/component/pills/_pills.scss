@@ -2,6 +2,13 @@
   .nav-item {
     margin-bottom: 0.5rem;
 
+    @media (hover: hover) {
+      &:hover button {
+        background-color: $gray-900;
+        color: $gray-100;
+      }
+    }
+
     &:not(:last-child) {
       margin-right: 0.5rem;
     }
@@ -14,6 +21,7 @@
     font-size: $font-size__text--big;
 
     transition: $transition-base;
+
   }
 
   .nav-link.active {

@@ -1,0 +1,18 @@
+#similar {
+}
+
+.similar {
+  .row > * {
+    @include breakpoint($breakpoint-tablet--large) {
+      &:nth-child(4) {
+        display: none;
+      }
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      &:nth-child(4) {
+        display: block;
+      }
+    }
+  }
+}

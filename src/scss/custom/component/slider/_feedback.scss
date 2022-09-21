@@ -1,6 +1,6 @@
 .slider-feedback {
   & > .owl-stage-outer {
-    overflow: visible;
+    padding: 0 5px;
 
     & > .owl-stage {
       display: flex;

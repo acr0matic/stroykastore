@@ -51,9 +51,10 @@
           <li class="nav-item" role="presentation">
             <button class="nav-link" id="pill-en-1" data-toggle="pill" data-target="#tab-en-2" type="button" role="tab" aria-controls="tab-en-2" aria-selected="false">B</button>
           </li>
-        </ul>
 
-        <ul class="nav nav-pills" id="pills-tab" role="tablist">
+          <!-- Делаем перенос на новую строку -->
+          <li style="flex-basis: 100%"></li>
+
           <li class="nav-item" role="presentation">
             <button class="nav-link" id="pill-ru-1" data-toggle="pill" data-target="#tab-ru-1" type="button" role="tab" aria-controls="tab-ru-1" aria-selected="false">А</button>
           </li>

@@ -1,0 +1,24 @@
+.filter {
+  &__group {
+    & > * {
+      &:not(:last-child) {
+        margin-bottom: 12px;
+      }
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 32px;
+    }
+  }
+
+  &__label {
+    color: $black;
+
+    font-weight: $weight-Bold;
+    font-size: $font-size__text--big;
+  }
+
+  #slider-range {
+    margin-top: 20px;
+  }
+}

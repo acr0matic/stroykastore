@@ -129,10 +129,10 @@
               <div class="col-3 col-sm-9">
                 <div class="header__content">
                   <div class="header__menu mr-2 mr-md-3 ml-auto d-none d-sm-block">
-                    <button class="btn btn-primary">
+                    <a href="catalog.php" class="btn btn-primary">
                       <i class="icon icon--chart mr-2"></i>
                       Каталог
-                    </button>
+                    </a>
                   </div>
                   <!-- /.header__menu -->
 

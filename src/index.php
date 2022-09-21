@@ -80,7 +80,7 @@
     <div class="container">
       <div class="section__header">
         <h2 class="section__title">Акции</h2>
-        <a class="btn btn-outline-secondary d-none d-sm-flex" href="">
+        <a class="btn btn-outline-secondary d-none d-sm-flex" data-toggle="modal" data-target="#modal-error">
           Все акции
           <i class="icon icon--gt ml-2"></i>
         </a>
