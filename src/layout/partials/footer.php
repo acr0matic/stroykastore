@@ -161,6 +161,7 @@
 <script src="scripts/libraries/owl.carousel.min.js"></script>
 <script src="scripts/libraries/jquery-ui.min.js"></script>
 <script src="scripts/libraries/jquery.ui.touch-punch.min.js"></script>
+<script src="scripts/libraries/select2.min.js"></script>
 
 <script src="scripts/base.js"></script>
 <script src="scripts/init.js"></script>
