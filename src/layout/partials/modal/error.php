@@ -4,6 +4,10 @@
     <div class="modal-content text-center">
       <div class="modal-header mb-2">
         <h5 class="modal-title">Ошибка</h5>
+
+        <button type="button" class="close icon icon--cross" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"></span>
+        </button>
       </div>
 
       <div class="modal-body">

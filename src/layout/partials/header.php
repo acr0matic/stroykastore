@@ -236,4 +236,6 @@
       <!-- /.header__main -->
     </div>
     <!-- /.header -->
+
+    <?php include_once('menu/mobile.php'); ?>
   </header>

@@ -4,6 +4,10 @@
     <div class="modal-content p-3">
       <div class="modal-header">
         <h5 class="modal-title">Фильтры</h5>
+
+        <button type="button" class="close icon icon--cross" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"></span>
+        </button>
       </div>
 
       <div class="modal-body">

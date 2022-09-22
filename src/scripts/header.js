@@ -27,5 +27,18 @@ if (header) {
 
     lastScroll = scroll;
   });
+
+
+
+  /* СКРИПТ МОБИЛЬНОГО МЕНЮ */
+  const burger = header.find('.header__burger');
+  const mobile = header.find('#mobile-menu');
+
+  burger.click(function () {
+    burger.toggleClass('header__burger--active');
+    mobile.toggleClass('mobile-menu--open');
+
+    $('body').toggleClass('overflow-hidden');
+  })
 }
 

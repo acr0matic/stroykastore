@@ -1,12 +1,18 @@
 .modal {
+  & > [data-dismiss="modal"] {
+    @include breakpoint($breakpoint-mobile--large) {
+      display: none;
+    }
+  }
+
   &-sm {
     max-width: 376px;
   }
 
   .close {
     @include breakpoint($breakpoint-mobile--large) {
-      top: 25px;
-      right: 25px;
+      top: 30px;
+      right: 30px;
 
       width: 28px;
       height: 28px;
@@ -41,6 +47,7 @@
   .modal-header {
     @include breakpoint($breakpoint-mobile--large) {
       margin-bottom: 20px;
+      padding-top: 15px;
     }
 
     display: block;
@@ -49,6 +56,14 @@
     border-bottom: none;
 
     text-align: center;
+
+    & > [data-dismiss="modal"] {
+      @include breakpoint($breakpoint-mobile--large) {
+        display: block;
+      }
+
+      display: none;
+    }
   }
 
   .modal-title {

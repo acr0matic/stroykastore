@@ -5,7 +5,7 @@
       <div class="modal-header">
         <h5 class="modal-title">Регистрация</h5>
 
-        <button type="button" class="close icon icon--cross d-block d-sm-none" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close icon icon--cross" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true"></span>
         </button>
       </div>

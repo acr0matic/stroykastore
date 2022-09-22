@@ -59,6 +59,20 @@
     }
   }
 
+  &--mobile {
+    .nav__item {
+      position: relative;
+
+      &:not(:last-child) {
+        margin-bottom: 0.75rem;
+      }
+    }
+
+    .nav__link {
+      font-size: $font-size__text--regular;
+    }
+  }
+
   &--footer {
     .nav__item {
       position: relative;
