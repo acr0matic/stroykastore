@@ -30,111 +30,119 @@
 
       <div class="row">
         <div class="col-12 col-xl-3">
-          <form action="" class="category__filter filter border">
-            <div class="filter__content p-3">
-              <div class="filter__group">
-                <div class="filter__label">Цена</div>
-                <div class="filter__range">
-                  <div class="row mb-3">
-                    <div class="col-6">
-                      <input data-min value="1000" min="1000" name="min" type="number" class="form-control" id="input-email" placeholder="1 000">
-                    </div>
-                    <!-- /.col-6 -->
+          <div action="" class="category__filter filter">
+            <button data-toggle="modal" data-target="#modal-filter" class="filter__button btn btn-outline-secondary btn-block mb-3 d-flex d-xl-none">
+              <i class="icon icon--setting mr-2"></i>
+              Фильтры
+            </button>
 
-                    <div class="col-6">
-                      <input data-max value="100000" max="100000" name=" max" type="number" class="form-control" id="input-email" placeholder="100 000">
+            <form class="filter__wrapper d-none d-xl-block border">
+              <div class="filter__content p-3">
+                <div class="filter__group">
+                  <div class="filter__label">Цена</div>
+                  <div class="filter__range">
+                    <div class="row mb-3">
+                      <div class="col-6">
+                        <input data-min value="1000" min="1000" name="min" type="number" class="form-control" id="input-email" placeholder="1 000">
+                      </div>
+                      <!-- /.col-6 -->
+
+                      <div class="col-6">
+                        <input data-max value="100000" max="100000" name=" max" type="number" class="form-control" id="input-email" placeholder="100 000">
+                      </div>
+                      <!-- /.col-6 -->
                     </div>
-                    <!-- /.col-6 -->
+                    <!-- /.row -->
+
+                    <div data-min="1000" data-max="100000" class="slider-range"></div>
                   </div>
-                  <!-- /.row -->
-
-                  <div data-min="1000" data-max="100000" class="slider-range"></div>
+                  <!-- /.filter__range -->
                 </div>
-                <!-- /.filter__range -->
-              </div>
-              <!-- /.filter__group -->
+                <!-- /.filter__group -->
 
-              <div class="filter__group">
-                <div class="filter__label">Бренд</div>
-                <div class="input-box mb3">
-                  <input placeholder="Поиск" name="search" type="text" class="form-control">
-                  <img src="img/icons/misc/search.svg" alt="">
+                <div class="filter__group">
+                  <div class="filter__label">Бренд</div>
+                  <div class="input-box mb3">
+                    <input placeholder="Поиск" name="search" type="text" class="form-control">
+                    <img src="img/icons/misc/search.svg" alt="">
+                  </div>
+
+                  <div class="filter__list">
+                    <label class="checkbox mb-2">
+                      <input name="" type="checkbox">
+                      <span class="checkbox__mark"></span>
+                      <span class="checkbox__label">Braer</span>
+                    </label>
+
+                    <label class="checkbox mb-2">
+                      <input name="" type="checkbox">
+                      <span class="checkbox__mark"></span>
+                      <span class="checkbox__label">Mstera</span>
+                    </label>
+
+                    <label class="checkbox mb-2">
+                      <input name="" type="checkbox">
+                      <span class="checkbox__mark"></span>
+                      <span class="checkbox__label">Euroblock</span>
+                    </label>
+
+                    <label class="checkbox mb-2">
+                      <input name="" type="checkbox">
+                      <span class="checkbox__mark"></span>
+                      <span class="checkbox__label">Гален</span>
+                    </label>
+
+                    <label class="checkbox mb-2">
+                      <input name="" type="checkbox">
+                      <span class="checkbox__mark"></span>
+                      <span class="checkbox__label">Гален</span>
+                    </label>
+
+                    <label class="checkbox mb-2">
+                      <input name="" type="checkbox">
+                      <span class="checkbox__mark"></span>
+                      <span class="checkbox__label">Гален</span>
+                    </label>
+
+                    <label class="checkbox mb-2">
+                      <input name="" type="checkbox">
+                      <span class="checkbox__mark"></span>
+                      <span class="checkbox__label">ЛСР</span>
+                    </label>
+
+                    <label class="checkbox mb-2">
+                      <input name="" type="checkbox">
+                      <span class="checkbox__mark"></span>
+                      <span class="checkbox__label">Decra</span>
+                    </label>
+                  </div>
+                  <!-- /.filter__list -->
                 </div>
+                <!-- /.filter__group -->
 
-                <div class="filter__list">
-                  <label class="checkbox mb-2">
-                    <input name="" type="checkbox">
-                    <span class="checkbox__mark"></span>
-                    <span class="checkbox__label">Braer</span>
-                  </label>
-
-                  <label class="checkbox mb-2">
-                    <input name="" type="checkbox">
-                    <span class="checkbox__mark"></span>
-                    <span class="checkbox__label">Mstera</span>
-                  </label>
-
-                  <label class="checkbox mb-2">
-                    <input name="" type="checkbox">
-                    <span class="checkbox__mark"></span>
-                    <span class="checkbox__label">Euroblock</span>
-                  </label>
-
-                  <label class="checkbox mb-2">
-                    <input name="" type="checkbox">
-                    <span class="checkbox__mark"></span>
-                    <span class="checkbox__label">Гален</span>
-                  </label>
-
-                  <label class="checkbox mb-2">
-                    <input name="" type="checkbox">
-                    <span class="checkbox__mark"></span>
-                    <span class="checkbox__label">Гален</span>
-                  </label>
-
-                  <label class="checkbox mb-2">
-                    <input name="" type="checkbox">
-                    <span class="checkbox__mark"></span>
-                    <span class="checkbox__label">Гален</span>
-                  </label>
-
-                  <label class="checkbox mb-2">
-                    <input name="" type="checkbox">
-                    <span class="checkbox__mark"></span>
-                    <span class="checkbox__label">ЛСР</span>
-                  </label>
-
-                  <label class="checkbox mb-2">
-                    <input name="" type="checkbox">
-                    <span class="checkbox__mark"></span>
-                    <span class="checkbox__label">Decra</span>
-                  </label>
+                <div class="filter__group">
+                  <div class="filter__label">Поставщик</div>
+                  <select class="select2-item" style="width: 100%" name="state">
+                    <option value=""></option>
+                    <option value="Braer">Braer</option>
+                    <option value="Mstera">Mstera</option>
+                    <option value="Euroblock">Euroblock</option>
+                    <option value="Гален">Гален</option>
+                    <option value="ЛСР">ЛСР</option>
+                  </select>
                 </div>
-                <!-- /.filter__list -->
+                <!-- /.filter__group -->
               </div>
-              <!-- /.filter__group -->
+              <!-- /.filter__content -->
 
-              <div class="filter__group">
-                <div class="filter__label">Поставщик</div>
-                <select class="select2-item" style="width: 100%" name="state">
-                  <option value=""></option>
-                  <option value="Braer">Braer</option>
-                  <option value="Mstera">Mstera</option>
-                  <option value="Euroblock">Euroblock</option>
-                  <option value="Гален">Гален</option>
-                  <option value="ЛСР">ЛСР</option>
-                </select>
+              <div class="filter__action border-top p-3">
+                <button class="btn btn-primary btn-block mb-1">Применить</button>
+                <button class="btn btn-outline-secondary btn-block">Сбросить</button>
               </div>
-              <!-- /.filter__group -->
-            </div>
-            <!-- /.filter__content -->
-
-            <div class="filter__action border-top p-3">
-              <button class="btn btn-primary btn-block mb-1">Применить</button>
-              <button class="btn btn-outline-secondary btn-block">Сбросить</button>
-            </div>
-            <!-- /.filter__action -->
-          </form>
+              <!-- /.filter__action -->
+            </form>
+            <!-- /.filter__wrapper -->
+          </div>
           <!-- /.category__filter -->
         </div>
         <!-- /.col-3 -->
@@ -406,6 +414,8 @@
     </div>
     <!-- /.container -->
   </section>
+
+  <?php include_once('layout/partials/modal/filter.php') ?>
 </main>
 
 <?php include_once('layout/partials/footer.php') ?>
