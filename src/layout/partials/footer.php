@@ -154,14 +154,14 @@
 
 <!-- Скрипты -->
 <!-- build:js js/script.min.js -->
-<script src="scripts/libraries/jquery.min.js"></script>
-<script src="scripts/libraries/popper.min.js"></script>
-<script src="scripts/libraries/bootstrap.min.js"></script>
-<script src="scripts/libraries/lazyload.js"></script>
-<script src="scripts/libraries/owl.carousel.min.js"></script>
-<script src="scripts/libraries/jquery-ui.min.js"></script>
-<script src="scripts/libraries/jquery.ui.touch-punch.min.js"></script>
-<script src="scripts/libraries/select2.min.js"></script>
+<script src="scripts/libraries/0_jquery.min.js"></script>
+<script src="scripts/libraries/1_jquery-ui.min.js"></script>
+<script src="scripts/libraries/2_jquery.ui.touch-punch.min.js"></script>
+<script src="scripts/libraries/3_owl.carousel.min.js"></script>
+<script src="scripts/libraries/4_select2.min.js"></script>
+<script src="scripts/libraries/5_popper.min.js"></script>
+<script src="scripts/libraries/6_bootstrap.min.js"></script>
+<script src="scripts/libraries/7_lazyload.js"></script>
 
 <script src="scripts/base.js"></script>
 <script src="scripts/init.js"></script>

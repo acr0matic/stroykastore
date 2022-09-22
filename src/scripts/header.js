@@ -4,7 +4,7 @@ if (header) {
 
   const top = header.find('.header__top');
   const bottom = header.find('.header__bottom');
-  const offsetTop = top.height();
+  const offsetTop = $(top).height();
   const offsetBottom = bottom.css("height");
 
   header.get(0).style.setProperty('--header-offset', `-${offsetTop}px`);
